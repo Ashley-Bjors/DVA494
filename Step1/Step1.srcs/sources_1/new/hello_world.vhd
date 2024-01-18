@@ -47,6 +47,6 @@ begin
         
         in1 <= '1';
         in2 <= '1';
-        wait;
+        wait for 10 ps;
     end process;
 end;
