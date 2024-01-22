@@ -57,7 +57,7 @@ end;
 --Mulitplexer
 library ieee;
 use ieee.std_logic_1164.all;
-entity Mux4To1 is
+entity Mux4To1Exp is
     port
     (
         i0      :in std_logic;
@@ -69,7 +69,7 @@ entity Mux4To1 is
         out0    :out std_logic
     );
 end;
-architecture Arch_Mux4To1 of Mux4To1 is 
+architecture Arch_Mux4To1Exp of Mux4To1Exp is 
     component Gate_And_3 is
     port
     (
@@ -117,7 +117,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 entity tb is end;
 architecture tb_arch of tb is 
-    component Mux4To1 is
+    component Mux4To1Exp is
     port
     (
         i0      :in std_logic;
@@ -137,7 +137,7 @@ end component;
        signal s1      : std_logic;
        signal out0    : std_logic;
     begin 
-        entity_instance_1 : Mux4To1
+        entity_instance_1 : Mux4To1Exp
         port map(i0,i1,i2,i3,s0,s1,out0);
         process is
         begin
