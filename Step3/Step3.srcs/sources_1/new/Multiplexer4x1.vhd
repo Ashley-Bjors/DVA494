@@ -149,13 +149,42 @@ end component;
             s1 <= '0';
             wait for 10 ps;  
             
-            i0 <= '0';
+
             i1 <= '1';
-            i2 <= '0';
-            i3 <= '1';
             s0 <= '1';
-            s1 <= '0';
             wait for 10 ps;  
+            
+            i3 <= '1';
+            s1 <= '1';
+            wait for 10 ps;  
+            
+            i2 <= '1';
+            s0 <= '0';
+            wait for 10 ps;  
+            
+            i0 <= '1';
+            s1 <= '1';
+            wait for 10 ps;  
+            
+            i0 <= '0';
+            i1 <= '0';
+            i2 <= '0';
+            i3 <= '0';
+            s0 <= '1';
+            s1 <= '1';
+            wait for 10 ps;  
+            
+            i0 <= '1';
+            wait for 10 ps;  
+            
+            i1 <= '1';
+            wait for 10 ps;
+            
+            i2 <= '1';
+            wait for 10 ps;
+            
+            i3 <= '1';
+            wait for 10 ps;
             
         end process;
     end;

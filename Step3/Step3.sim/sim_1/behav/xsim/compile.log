@@ -1,4 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494-Lab1/Step3/Step3.srcs/sources_1/new/Multiplexer4x1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494-Lab1/Step3/Step3.srcs/sources_1/new/Multiplexer4x1.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'Gate_And_3'
 INFO: [VRFC 10-3107] analyzing entity 'Gate_Or_4'
 INFO: [VRFC 10-3107] analyzing entity 'Gate_Not'
