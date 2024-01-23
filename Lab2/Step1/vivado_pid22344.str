@@ -1,0 +1,1542 @@
+/*
+
+AMD Vivado v2023.2 (64-bit) [Major: 2023, Minor: 2]
+SW Build: 4029153 on Fri Oct 13 20:14:34 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+IP Build: 4028589 on Sat Oct 14 00:45:43 MDT 2023
+
+Process ID (PID): 22344
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Jan 23 11:21:44 CET 2024
+Time zone: 	Central European Standard Time (Europe/Stockholm)
+
+OS: Windows 11
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1920x1080
+Local screen bounds: x = 0, y = 0, width = 1920, height = 1020
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+OS font scaling: 125%
+Anti-Alias Enabled: false
+
+Java version: 	17.0.7 64-bit
+JavaFX version: 17.0.1
+Java home: 	C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+Java executable: 	C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	noben
+User home directory: C:/Users/noben
+User working directory: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2023.2
+RDI_DATADIR: C:/Xilinx/Vivado/2023.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2023.2/bin
+
+Vivado preferences file: C:/Users/noben/AppData/Roaming/Xilinx/Vivado/2023.2/vivado.xml
+Vivado preferences directory: C:/Users/noben/AppData/Roaming/Xilinx/Vivado/2023.2/
+Vivado layouts directory: C:/Users/noben/AppData/Roaming/Xilinx/Vivado/2023.2/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2023.2/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/vivado.log
+Vivado journal file: 	C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/vivado.jou
+Engine tmp dir: 	C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/.Xil/Vivado-22344-LAPTOP-H7LB15NM
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: C:/Xilinx/Vivado/2023.2
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent17676 "C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step1\Step1.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: C:/Xilinx/Vivado
+RDI_BINDIR: C:/Xilinx/Vivado/2023.2/bin
+RDI_BINROOT: C:/Xilinx/Vivado/2023.2/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: C:/Xilinx/Vivado/2023.2/data
+RDI_INSTALLROOT: C:/Xilinx
+RDI_INSTALLVER: 2023.2
+RDI_INSTALLVERSION: 2023.2
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: C:/Xilinx/Vivado/2023.2/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: C:/Xilinx/Vivado/2023.2/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: C:/Xilinx/Vivado/2023.2/tps/win64/jre17.0.7_7
+RDI_JAVA_VERSION: 17.0.7_7
+RDI_LIBDIR: C:/Xilinx/Vivado/2023.2/lib/win64.o
+RDI_MINGW_LIB: C:/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\bin;C:/Xilinx/Vivado/2023.2\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: C:/Xilinx/Vivado/2023.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2023.2/ids_lite/ISE/lib/nt64
+RDI_PROG: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3
+RDI_PYTHONPATH: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\bin;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib;C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: C:/Xilinx/Vivado/2023.2\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Users\noben\OneDrive-Mälardalenshögskola\Documents\GitHub\DVA494\Lab2\Step1:LAPTOP-H7LB15NM-2024-01-23_11-21-17,50
+RDI_SHARED_DATA: C:/Xilinx/SharedData/2023.2/data
+RDI_TPS_ROOT: C:/Xilinx/Vivado/2023.2/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: C:/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2023.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2023.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2023.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2023.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2023.2
+_RDI_BINROOT: C:\Xilinx\Vivado\2023.2\bin
+_RDI_CWD: C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step1
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 802 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step1\Step1.xpr. Version: Vivado v2023.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1' 
+// HMemoryUtils.trashcanNow. Engine heap size: 848 MB. GUI used memory: 69 MB. Current time: 1/23/24, 11:21:45 AM CET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 123 MB (+126935kb) [00:00:22]
+// [Engine Memory]: 1,033 MB (+931240kb) [00:00:22]
+// WARNING: HEventQueue.dispatchEvent() is taking  4232 ms.
+// Tcl Message: open_project {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1' 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab2/Step1' since last save. INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'. 
+// Project name: Step1; location: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1425.102 ; gain = 157.613 
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// [GUI Memory]: 151 MB (+22406kb) [00:00:36]
+// Elapsed time: 22 seconds
+selectCodeEditor("Step1.vhd", 229, 119); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 209, 120); // ad (Step1.vhd)
+// Elapsed time: 75 seconds
+selectCodeEditor("Step1.vhd", 302, 261); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 206, 351); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 270, 116); // ad (Step1.vhd)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "Step1.vhd", 'c'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 258, 41); // ad (Step1.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("Step1.vhd", 396, 347); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 426, 312); // ad (Step1.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("Step1.vhd", 242, 248); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 125, 117); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 245, 92); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 206, 119); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'c'); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 239, 369); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 271, 286); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("Step1.vhd", 414, 264); // ad (Step1.vhd)
+// Elapsed time: 29 seconds
+selectCodeEditor("Step1.vhd", 439, 135); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 296, 137); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 90, 141); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 397, 184); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 302, 263); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 332, 389); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 417, 390); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 465, 374); // ad (Step1.vhd)
+// Elapsed time: 16 seconds
+selectCodeEditor("Step1.vhd", 306, 350); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 304, 371); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 528, 344); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 177, 390); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 137, 415); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 519, 393); // ad (Step1.vhd)
+// Elapsed time: 17 seconds
+selectCodeEditor("Step1.vhd", 428, 410); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 122, 261); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 125, 77); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 475, 325); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 425, 428); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 335, 458); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 542, 453); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 577, 415); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 573, 378); // ad (Step1.vhd)
+// [Engine Memory]: 1,085 MB (+974kb) [00:07:02]
+// Elapsed time: 43 seconds
+selectCodeEditor("Step1.vhd", 616, 414); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 580, 437); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 579, 394); // ad (Step1.vhd)
+// Elapsed time: 17 seconds
+selectCodeEditor("Step1.vhd", 343, 201); // ad (Step1.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("Step1.vhd", 254, 332); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 341, 332); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 471, 349); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 618, 422); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 621, 459); // ad (Step1.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("Mux4To1.vhd", 340, 175); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 337, 267); // ad (Mux4To1.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Step1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 25 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Step1.vhd", 539, 323); // ad (Step1.vhd)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Step1.vhd", 508, 349); // ad (Step1.vhd)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Step1.vhd", 516, 364); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 402, 409); // ad (Step1.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,090 MB. GUI used memory: 75 MB. Current time: 1/23/24, 11:31:06 AM CET
+selectCodeEditor("Step1.vhd", 502, 377); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 422, 412); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 467, 414); // ad (Step1.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("Step1.vhd", 418, 138); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 418, 115); // ad (Step1.vhd)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Step1.vhd", 331, 76); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 246, 263); // ad (Step1.vhd)
+typeControlKey((HResource) null, "Step1.vhd", 'v'); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 336, 266); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 431, 432); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 548, 448); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 603, 338); // ad (Step1.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("Step1.vhd", 576, 295); // ad (Step1.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4To1.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("Mux4To1.vhd", 206, 118); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 305, 332); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+typeControlKey((HResource) null, "Mux4To1.vhd", 'v'); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 477, 287); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 89, 245); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 84, 32); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 396, 93); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 88, 72); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 472, 74); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 303, 199); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 304, 409); // ad (Mux4To1.vhd)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectCodeEditor("Mux4To1.vhd", 345, 387); // ad (Mux4To1.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("Mux4To1.vhd", 571, 318); // ad (Mux4To1.vhd)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Mux2To1.vhd", 206, 118); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 294, 158); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 392, 235); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 307, 352); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 83, 448); // ad (Mux2To1.vhd)
+// Elapsed time: 129 seconds
+selectCodeEditor("Mux2To1.vhd", 34, 77); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'c'); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 21, 431); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+// Elapsed time: 19 seconds
+selectCodeEditor("Mux2To1.vhd", 33, 457); // ad (Mux2To1.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("Mux2To1.vhd", 46, 225); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 249, 34); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'c'); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 20, 352); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 146, 433); // ad (Mux2To1.vhd)
+// Elapsed time: 53 seconds
+selectCodeEditor("Mux2To1.vhd", 126, 283); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'c'); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 105, 412); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 267, 454); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 432, 428); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 370, 455); // ad (Mux2To1.vhd)
+// Elapsed time: 153 seconds
+selectCodeEditor("Mux2To1.vhd", 25, 366); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 175, 455); // ad (Mux2To1.vhd)
+// Elapsed time: 57 seconds
+selectCodeEditor("Mux2To1.vhd", 74, 432); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 78, 306); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 14, 445); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 112, 325); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 57, 426); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 98, 433); // ad (Mux2To1.vhd)
+// Elapsed time: 73 seconds
+selectCodeEditor("Mux2To1.vhd", 182, 387); // ad (Mux2To1.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("Mux2To1.vhd", 59, 246); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 95, 223); // ad (Mux2To1.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("Mux2To1.vhd", 144, 252); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 160, 241); // ad (Mux2To1.vhd)
+// Elapsed time: 27 seconds
+selectCodeEditor("Mux2To1.vhd", 189, 283); // ad (Mux2To1.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 23m:12s
+// Elapsed Time for: 'L.f': 23m:14s
+// Elapsed time: 61 seconds
+selectCodeEditor("Mux2To1.vhd", 219, 290); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 43, 287); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 54, 288); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 68, 281); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 191, 286); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 203, 302); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 46, 286); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 158, 284); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 201, 307); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 121, 304); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 127, 306); // ad (Mux2To1.vhd)
+// Elapsed time: 25 seconds
+selectCodeEditor("Mux2To1.vhd", 250, 310); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 235, 329); // ad (Mux2To1.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("Mux2To1.vhd", 184, 282); // ad (Mux2To1.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("Mux2To1.vhd", 80, 286); // ad (Mux2To1.vhd)
+// Elapsed time: 32 seconds
+selectCodeEditor("Mux2To1.vhd", 237, 284); // ad (Mux2To1.vhd)
+// Elapsed time: 34 seconds
+selectCodeEditor("Mux2To1.vhd", 262, 332); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 312, 306); // ad (Mux2To1.vhd)
+// Elapsed time: 25 seconds
+selectCodeEditor("Mux2To1.vhd", 149, 329); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 236, 311); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 58, 286); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 93, 281); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 96, 284); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 236, 305); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 236, 305); // ad (Mux2To1.vhd)
+// Elapsed time: 42 seconds
+selectCodeEditor("Mux2To1.vhd", 104, 325); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 197, 334); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 183, 301); // ad (Mux2To1.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("Mux2To1.vhd", 384, 97); // ad (Mux2To1.vhd)
+// Elapsed time: 28 seconds
+selectCodeEditor("Mux2To1.vhd", 410, 263); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 483, 14); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 170, 287); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 211, 297); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 191, 283); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 197, 266); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 175, 305); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 227, 293); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 109, 304); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 211, 292); // ad (Mux2To1.vhd)
+// Elapsed time: 75 seconds
+selectCodeEditor("Mux2To1.vhd", 387, 305); // ad (Mux2To1.vhd)
+// Elapsed time: 77 seconds
+selectCodeEditor("Mux2To1.vhd", 226, 305); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 219, 293); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 72, 306); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 222, 306); // ad (Mux2To1.vhd)
+// Elapsed time: 141 seconds
+selectCodeEditor("Mux2To1.vhd", 180, 308); // ad (Mux2To1.vhd)
+// Elapsed time: 19 seconds
+selectCodeEditor("Mux2To1.vhd", 241, 307); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 230, 305); // ad (Mux2To1.vhd)
+// Elapsed time: 19 seconds
+selectCodeEditor("Mux2To1.vhd", 393, 301); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 353, 308); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 358, 306); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 345, 298); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 317, 295); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 269, 275); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 217, 306); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 356, 305); // ad (Mux2To1.vhd)
+// Elapsed time: 22 seconds
+selectCodeEditor("Mux2To1.vhd", 321, 267); // ad (Mux2To1.vhd)
+// Elapsed time: 183 seconds
+selectCodeEditor("Mux2To1.vhd", 238, 207); // ad (Mux2To1.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 77 MB. Current time: 1/23/24, 12:01:06 PM CET
+// Elapsed time: 47 seconds
+selectCodeEditor("Mux2To1.vhd", 186, 301); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 135, 284); // ad (Mux2To1.vhd)
+// Elapsed time: 19 seconds
+selectCodeEditor("Mux2To1.vhd", 152, 314); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 135, 304); // ad (Mux2To1.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("Mux2To1.vhd", 203, 318); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 71, 305); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 210, 330); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 170, 326); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 237, 327); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 341, 347); // ad (Mux2To1.vhd)
+// Elapsed time: 18 seconds
+selectCodeEditor("Mux2To1.vhd", 212, 348); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 216, 349); // ad (Mux2To1.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("Mux2To1.vhd", 127, 352); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 233, 344); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 223, 330); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 239, 347); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 50, 342); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 128, 368); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 130, 348); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 143, 371); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 145, 352); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 239, 391); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 239, 391); // ad (Mux2To1.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 41m:35s
+// Elapsed Time for: 'L.f': 41m:37s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // W.d (dialog0)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'Mux8to1' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'Mux8to1' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Mux8to1_vhdl.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mux8to1_behav xil_defaultlib.Mux8to1 -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1454.316 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 14 seconds
+// Elapsed time: 12 seconds
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// Elapsed Time for: 'L.f': 41m:55s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog1)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top Mux2To1 [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 42m:05s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 42m:07s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 42m:09s
+// Elapsed Time for: 'L.f': 42m:11s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'Mux8to1' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'Mux8to1' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Mux8to1_vhdl.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mux8to1_behav xil_defaultlib.Mux8to1 -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 5 seconds
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog2)
+selectCodeEditor("Mux2To1.vhd", 231, 346); // ad (Mux2To1.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_2 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1, true, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al (PAResourceCommand.PACommandNames_OPEN_FILE_WITH, Open With)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao (PAResourceCommand.PACommandNames_SET_AS_TOP, set_as_top_menu)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top Mux8to1 [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 42m:47s
+selectCodeEditor("Mux2To1.vhd", 456, 354); // ad (Mux2To1.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 42m:49s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 42m:51s
+selectCodeEditor("Mux2To1.vhd", 76, 479); // ad (Mux2To1.vhd)
+// Elapsed Time for: 'L.f': 42m:53s
+typeControlKey((HResource) null, "Mux2To1.vhd", 'c'); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 139, 103); // ad (Mux2To1.vhd)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // ag (PAResourceItoN.MainMenuMgr_TOOLS, Tools)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ag (PAResourceItoN.MainMenuMgr_EDIT, Edit)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // ag (PAResourceItoN.MainMenuMgr_EDIT, Edit)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ao (PAResourceCommand.PACommandNames_NEW_PROJECT, new_project_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+// Elapsed time: 12 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "Test"); // Q (PAResourceOtoP.ProjectNameChooser_PROJECT_NAME)
+selectMoreButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // r (PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION)
+setFolderChooser("C:/Users/noben/Downloads");
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectCheckBox(PAResourceItoN.NewProjectWizard_DO_NOT_SPECIFY_SOURCES_AT_THIS_TIME, "Do not specify sources at this time", true); // f (PAResourceItoN.NewProjectWizard_DO_NOT_SPECIFY_SOURCES_AT_THIS_TIME): TRUE
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Artix-7", 1); // a.a (PAResourceEtoH.FPGAChooser_FAMILY)
+selectComboBox(PAResourceEtoH.FPGAChooser_SPEED, "-1", 1); // a.a (PAResourceEtoH.FPGAChooser_SPEED)
+// Elapsed time: 29 seconds
+selectComboBox(PAResourceEtoH.FPGAChooser_PACKAGE, "cpg236", 1); // a.a (PAResourceEtoH.FPGAChooser_PACKAGE)
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a15tcpg236-1 ; 236 ; 106 ; 10400 ; 20800 ; 25 ; 0 ; 45 ; 32 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "xc7a15tcpg236-1", 0); // c (PAResourceEtoH.FPGAChooser_FPGA_TABLE)
+// Elapsed time: 10 seconds
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 78 MB. Current time: 1/23/24, 12:06:38 PM CET
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+// Tcl Message: close_project 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project Test C:/Users/noben/Downloads/Test -part xc7a15tcpg236-1 
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1159 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'g' command handler elapsed time: 100 seconds
+dismissDialog("Create Project"); // bq (Create Project Progress)
+dismissDialog("New Project"); // f (dialog3)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, false, false, false, false, true, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al (PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al (PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ao (PAResourceCommand.PACommandNames_ADD_SOURCES, add_sources_menu)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+selectButton("NEXT", "Next >"); // JButton (NEXT)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (PAResourceQtoS.SrcChooserPanel_CREATE_FILE)
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // bf (PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "BadBoi"); // Q (PAResourceAtoD.CreateSrcFileDialog_FILE_NAME)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// Tcl Command: 'file mkdir C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new'
+dismissDialog("Create Source File"); // m (dialog6)
+// Tcl Message: file mkdir C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton (FINISH)
+// 'f' command handler elapsed time: 22 seconds
+dismissDialog("Add Sources"); // c (dialog5)
+// Tcl Message: close [ open C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new/BadBoi.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new/BadBoi.vhd 
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (RDIResource.BaseDialog_CANCEL)
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+dismissDialog("Define Module"); // p (dialog7)
+// Elapsed Time for: 'L.f': 42s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 44s
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed Time for: 'L.f': 46s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, BadBoi.vhd]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, BadBoi.vhd]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed Time for: 'L.f': 48s
+typeControlKey((HResource) null, "BadBoi.vhd", 'v'); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 133, 239); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 274, 244); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 299, 244); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 299, 244, false, false, false, false, true); // ad (BadBoi.vhd) - Double Click
+selectCodeEditor("BadBoi.vhd", 139, 173); // ad (BadBoi.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01m:06s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 01m:08s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 01m:10s
+// Elapsed Time for: 'L.f': 01m:12s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+// Elapsed Time for: 'L.f': 01m:14s
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tb_vhdl.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new/BadBoi.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'Mux2To1' INFO: [VRFC 10-3107] analyzing entity 'tb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_behav xil_defaultlib.tb -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator v2023.2 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_behav xil_defaultlib.tb -log elaborate.log  Using 2 slave threads. Starting static elaboration ERROR: [VRFC 10-3290] entity port 's0' does not match with type std_logic_vector of component port [C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new/BadBoi.vhd:34] ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit tb in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 7 seconds
+selectButton("OptionPane.button", "OK"); // JButton (OptionPane.button)
+// Elapsed Time for: 'L.f': 01m:22s
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog8)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb(arch_tb) (BadBoi.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb(arch_tb) (BadBoi.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb(arch_tb) (BadBoi.vhd), entity_instance_1 : Mux2To1(Arch_Mux2To1) (BadBoi.vhd)]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 22 seconds
+selectCodeEditor("BadBoi.vhd", 194, 176); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 277, 243); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 276, 250); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 276, 250, false, false, false, false, true); // ad (BadBoi.vhd) - Double Click
+// Elapsed time: 24 seconds
+selectCodeEditor("BadBoi.vhd", 146, 282); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 146, 282); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 146, 282); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 146, 282, false, false, false, false, true); // ad (BadBoi.vhd) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("BadBoi.vhd", 95, 324); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 84, 308); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 53, 197); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 154, 192); // ad (BadBoi.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("BadBoi.vhd", 296, 138); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 508, 252); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 360, 265); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 403, 279); // ad (BadBoi.vhd)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (PAResourceQtoS.SaveProjectUtils_SAVE)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // W.d (dialog9)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tb_vhdl.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new/BadBoi.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'Mux2To1' INFO: [VRFC 10-3107] analyzing entity 'tb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_behav xil_defaultlib.tb -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:10:42 PM CET
+// Tcl Message: source tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 1514.094 ; gain = 32.605 
+// 'd' command handler elapsed time: 15 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// Elapsed Time for: 'L.f': 04m:04s
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:10:51 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:10:56 PM CET
+// Elapsed time: 14 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 141, 338); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+/********** leftMouseClick (1422, 555, true); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 22, 271); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+/********** leftMouseClick (1327, 501, true); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, -4, 271); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+/********** leftMouseClick (1306, 501, true); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BadBoi.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("BadBoi.vhd", 137, 369); // ad (BadBoi.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 163 MB (+4558kb) [00:49:44]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 165 MB. Current time: 1/23/24, 12:11:15 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 91 MB. Current time: 1/23/24, 12:11:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:19 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:20 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:11:20 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:20 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:20 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:20 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:11:20 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:22 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:24 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:25 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:26 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:26 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:32 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:34 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:11:55 PM CET
+// Elapsed time: 57 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BadBoi.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:12:41 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:12:42 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:12:44 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:12:46 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:12:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:12:47 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:12:48 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 88 MB. Current time: 1/23/24, 12:12:49 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 87 MB. Current time: 1/23/24, 12:12:50 PM CET
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BadBoi.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 13 seconds
+selectCodeEditor("BadBoi.vhd", 135, 374); // ad (BadBoi.vhd)
+typeControlKey((HResource) null, "BadBoi.vhd", 'c'); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 4, 403); // ad (BadBoi.vhd)
+typeControlKey((HResource) null, "BadBoi.vhd", 'v'); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 68, 387); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 164, 368); // ad (BadBoi.vhd)
+typeControlKey((HResource) null, "BadBoi.vhd", 'v'); // ad (BadBoi.vhd)
+selectCodeEditor("BadBoi.vhd", 97, 348); // ad (BadBoi.vhd)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // f (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ao (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+selectButton("OptionPane.button", "Yes"); // JButton (OptionPane.button)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+dismissDialog("Save Simulation Sources"); // c (dialog10)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bq (Close Progress)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0' 
+// Tcl Message: INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tb_vhdl.prj" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new/BadBoi.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'Mux2To1' INFO: [VRFC 10-3107] analyzing entity 'tb' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_behav xil_defaultlib.tb -log elaborate.log" ECHO is off. ECHO is off. 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/noben/Downloads/Test/Test.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t (PAResourceOtoP.PAViews_PROJECT_SUMMARY, PlanAheadTabProject Summary)
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 91 MB. Current time: 1/23/24, 12:13:48 PM CET
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2569.637 ; gain = 0.000 
+// 'd' command handler elapsed time: 13 seconds
+dismissDialog("Run Simulation"); // e (Run Simulation Progress)
+// Elapsed Time for: 'L.f': 07m:10s
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 91 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 91 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 91 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 91 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:13:52 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:13:55 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:13:56 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:13:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:08 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 24 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 339, 109); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer)
+/********** leftMouseClick (1556, 380, true); // b (RDIResource.RDIViews_WAVEFORM_VIEWER, PlanAheadTabWaveform Viewer_viewer) **********/
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:14:27 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:33 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:33 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:34 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:34 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 90 MB. Current time: 1/23/24, 12:14:35 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:36 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:36 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:37 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:37 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 89 MB. Current time: 1/23/24, 12:14:38 PM CET
+// Elapsed time: 27 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BadBoi.vhd", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 11 seconds
+selectCodeEditor("BadBoi.vhd", 153, 225); // ad (BadBoi.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("BadBoi.vhd", 294, 254); // ad (BadBoi.vhd)
+// Elapsed Time for: 'L.f': 08m:20s
+// Elapsed Time for: 'L.f': 08m:22s
+selectCodeEditor("BadBoi.vhd", 78, 411); // ad (BadBoi.vhd)
+typeControlKey((HResource) null, "BadBoi.vhd", 'c'); // ad (BadBoi.vhd)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag (PAResourceItoN.MainMenuMgr_FILE, File)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // al (PAResourceItoN.MainMenuMgr_CHECKPOINT, Checkpoint)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al (PAResourceItoN.MainMenuMgr_PROJECT, Project)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open..."); // ao (PAResourceCommand.PACommandNames_OPEN_PROJECT, open_project_menu)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag (PAResourceItoN.MainMenuMgr_FILE, File)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 82 seconds
+setFileChooser("C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.xpr");
+// Opening Vivado Project: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.xpr. Version: Vivado v2023.2 
+selectButton("OptionPane.button", "No"); // JButton (OptionPane.button)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1338 ms.
+// Tcl Message: open_project {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1' 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'. 
+// Project name: Step1; location: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bq (Open Project Progress)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+typeControlKey((HResource) null, "Mux2To1.vhd", 'v'); // ad (Mux2To1.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 30s
+// Elapsed Time for: 'L.f': 32s
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_2 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_2 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_2 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectCodeEditor("Mux4To1.vhd", 390, 199); // ad (Mux4To1.vhd)
+// Elapsed time: 18 seconds
+selectCodeEditor("Mux4To1.vhd", 309, 291); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 423, 268); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 414, 241); // ad (Mux4To1.vhd)
+// Elapsed time: 25 seconds
+selectCodeEditor("Mux4To1.vhd", 506, 281); // ad (Mux4To1.vhd)
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_2 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_2 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_2 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_2 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// [GUI Memory]: 176 MB (+4908kb) [00:58:08]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_2 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_2 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("Mux4To1.vhd", 323, 310); // ad (Mux4To1.vhd)
+// Elapsed time: 23 seconds
+selectCodeEditor("Mux4To1.vhd", 356, 345); // ad (Mux4To1.vhd)
+// Elapsed time: 14 seconds
+selectCodeEditor("Mux4To1.vhd", 367, 330); // ad (Mux4To1.vhd)
+// Elapsed time: 13 seconds
+selectCodeEditor("Mux4To1.vhd", 97, 324); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 199, 325); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 385, 350); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 357, 369); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 294, 322); // ad (Mux4To1.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("Mux4To1.vhd", 308, 285); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 243, 311); // ad (Mux4To1.vhd)
+// Elapsed time: 30 seconds
+selectCodeEditor("Mux4To1.vhd", 383, 368); // ad (Mux4To1.vhd)
+// Elapsed time: 13 seconds
+selectCodeEditor("Mux4To1.vhd", 557, 347); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 529, 316); // ad (Mux4To1.vhd)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_2 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_2 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_3 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_3 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd), Mux4To1_1 : Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 2, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// Elapsed time: 17 seconds
+selectCodeEditor("Mux4To1.vhd", 261, 299); // ad (Mux4To1.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 06m:14s
+// Elapsed Time for: 'L.f': 06m:16s
+// Tcl Message: ERROR: [Common 17-180] Spawn failed: Illegal byte sequence 
+// Elapsed time: 17 seconds
+selectCodeEditor("Mux4To1.vhd", 490, 292); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 443, 327); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 424, 346); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 421, 370); // ad (Mux4To1.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectCodeEditor("Step1.vhd", 302, 285); // ad (Step1.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("Step1.vhd", 573, 274); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 498, 224); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 499, 297); // ad (Step1.vhd)
+// Elapsed time: 130 seconds
+selectCodeEditor("Step1.vhd", 461, 301); // ad (Step1.vhd)
+// Elapsed time: 19 seconds
+selectCodeEditor("Step1.vhd", 118, 326); // ad (Step1.vhd)
+// Elapsed time: 47 seconds
+selectCodeEditor("Step1.vhd", 409, 368); // ad (Step1.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("Step1.vhd", 425, 313); // ad (Step1.vhd)
+// Elapsed time: 20 seconds
+selectCodeEditor("Step1.vhd", 596, 363); // ad (Step1.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 11m:40s
+// Elapsed time: 32 seconds
+selectCodeEditor("Step1.vhd", 653, 364); // ad (Step1.vhd)
+// Elapsed Time for: 'L.f': 11m:42s
+selectCodeEditor("Step1.vhd", 624, 368); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 529, 415); // ad (Step1.vhd)
+// Elapsed time: 16 seconds
+selectCodeEditor("Step1.vhd", 644, 301); // ad (Step1.vhd)
+// Elapsed time: 29 seconds
+selectCodeEditor("Step1.vhd", 315, 323); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 463, 351); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 594, 325); // ad (Step1.vhd)
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("Mux2To1.vhd", 289, 241); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 289, 241, false, false, false, false, true); // ad (Mux2To1.vhd) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Step1.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("Step1.vhd", 542, 283); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 542, 283, false, false, false, false, true); // ad (Step1.vhd) - Double Click
+selectCodeEditor("Step1.vhd", 536, 305); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 536, 305, false, false, false, false, true); // ad (Step1.vhd) - Double Click
+selectCodeEditor("Step1.vhd", 142, 200); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 142, 200); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 142, 200, false, false, false, false, true); // ad (Step1.vhd) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Step1.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Step1.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("Step1.vhd", 277, 407); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 101, 341); // ad (Step1.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("Step1.vhd", 239, 352); // ad (Step1.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 14m:00s
+// Elapsed Time for: 'L.f': 14m:02s
+selectCodeEditor("Step1.vhd", 209, 339); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 115, 331); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 77, 354); // ad (Step1.vhd)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 14m:20s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 14m:22s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 14m:24s
+// Elapsed Time for: 'L.f': 14m:26s
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 21 seconds
+dismissDialog("Invalid Top Module"); // s (dialog12)
+// Elapsed Time for: 'L.f': 14m:38s
+selectCodeEditor("Step1.vhd", 182, 302); // ad (Step1.vhd)
+// Elapsed Time for: 'L.f': 14m:40s
+// Elapsed time: 15 seconds
+selectRadioButton(PAResourceEtoH.FloatingTopDialog_IGNORE_AND_CONTINUE_WITH_INVALID_TOP, "Ignore and continue with invalid top module"); // a (PAResourceEtoH.FloatingTopDialog_IGNORE_AND_CONTINUE_WITH_INVALID_TOP)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (RDIResource.BaseDialog_OK)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SRC_MGMT_MODE_CHANGE
+// Tcl Message: set_property source_mgmt_mode DisplayOnly [current_project] 
+dismissDialog("Invalid Top Module"); // s (dialog13)
+// Elapsed Time for: 'L.f': 24m:58s
+// Elapsed Time for: 'L.f': 14m:58s
+selectCodeEditor("Step1.vhd", 154, 337); // ad (Step1.vhd)
+// Elapsed Time for: 'L.f': 25m:00s
+// Elapsed Time for: 'L.f': 15m:00s
+selectCodeEditor("Step1.vhd", 152, 311); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 153, 350); // ad (Step1.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Step1.vhd]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Step1.vhd]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Step1.vhd]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Step1.vhd]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Step1.vhd]", 2, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Step1.vhd]", 2, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4To1.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 15m:46s
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Step1.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed Time for: 'L.f': 15m:48s
+// Elapsed time: 12 seconds
+selectCodeEditor("Step1.vhd", 361, 218); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 173, 362); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 65, 346); // ad (Step1.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4To1.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 19 seconds
+selectCodeEditor("Mux4To1.vhd", 108, 258); // ad (Mux4To1.vhd)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4To1.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Step1.vhd", 3); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("Step1.vhd", 235, 313); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 271, 331); // ad (Step1.vhd)
+selectCodeEditor("Step1.vhd", 616, 283); // ad (Step1.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("Mux2To1.vhd", 310, 65); // ad (Mux2To1.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4To1.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4To1.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 18m:14s
+// Elapsed Time for: 'L.f': 18m:16s
+// Elapsed time: 69 seconds
+selectCodeEditor("Mux4To1.vhd", 369, 331); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 224, 231); // ad (Mux4To1.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4To1.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectCodeEditor("Mux4To1.vhd", 208, 181); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 167, 330); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 88, 324); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 88, 324); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 88, 324, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 224, 295); // ad (Mux4To1.vhd)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_2 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 5, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_2 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 5, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux4To1(Arch_Mux4To1) (Mux4To1.vhd)]", 3); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux2To1.vhd", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mux4To1(Arch_Mux4To1) (Mux4To1.vhd), Mux2To1_1 : Mux2To1(Arch_Mux2To1) (Mux2To1.vhd)]", 4, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// Elapsed time: 15 seconds
+selectCodeEditor("Mux2To1.vhd", 196, 98); // ad (Mux2To1.vhd)
+selectCodeEditor("Mux2To1.vhd", 226, 95); // ad (Mux2To1.vhd)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4To1.vhd", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 96 seconds
+selectCodeEditor("Mux4To1.vhd", 241, 379); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 352, 414); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 42, 369); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 42, 369, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 66, 390); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 66, 390, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 54, 416); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 54, 416, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 148, 415); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 148, 415, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 286, 408); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 286, 408, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 316, 412); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 316, 412, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 286, 427); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 286, 427, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 316, 430); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 316, 430, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 348, 415); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 348, 415, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 419, 408); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 419, 408, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 425, 431); // ad (Mux4To1.vhd)
+selectCodeEditor("Mux4To1.vhd", 425, 431, false, false, false, false, true); // ad (Mux4To1.vhd) - Double Click
+selectCodeEditor("Mux4To1.vhd", 404, 360); // ad (Mux4To1.vhd)
+// Elapsed time: 22 seconds
+selectCodeEditor("Mux4To1.vhd", 603, 309); // ad (Mux4To1.vhd)
