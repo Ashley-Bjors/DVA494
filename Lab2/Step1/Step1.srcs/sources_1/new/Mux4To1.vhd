@@ -7,7 +7,7 @@ entity Mux4To1 is
         i1:in std_logic_vector (3 downto 0);
         i2:in std_logic_vector (3 downto 0);
         i3:in std_logic_vector (3 downto 0);
-        sel:in std_logic_vector (1 downto 0);
+        s0:in std_logic_vector (1 downto 0);
         o:out std_logic_vector (3 downto 0)
     );
 end;
@@ -27,7 +27,7 @@ architecture Arch_Mux4To1 of Mux4To1 is
     signal TempS1:std_logic;
 begin
 
-    Mux2To1_1:Mux2To1 port map(i0,i1,sel(0),Mux2To1_temp1);
-    Mux2To1_2:Mux2To1 port map(i2,i3,sel(1),Mux2To1_temp2);
+    Mux2To1_1:Mux2To1 port map(i0,i1,s0(0),Mux2To1_temp1);
+    Mux2To1_2:Mux2To1 port map(i2,i3,s0(1),Mux2To1_temp2);
     Mux2To1_3:Mux2To1 port map(Mux2To1_temp1,Mux2To1_temp2,TempS1,o);
 end;
