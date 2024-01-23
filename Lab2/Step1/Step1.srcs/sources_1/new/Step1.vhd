@@ -67,7 +67,7 @@ architecture arch_tb of tb is
     );
 
 end component;
- signal i0,i1,i2,i3,i4,i5,i6,i7,O : std_logic_vector (3 downto 0);
+ signal i0,i1,i2,i3,i4,i5,i6,i7,o : std_logic_vector (3 downto 0);
  signal s0 :std_logic_vector (2 downto 0);
  
 begin

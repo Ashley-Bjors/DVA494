@@ -1,5 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.std_logic_signed.all;
 entity Mux2To1 is
     port
     (
