@@ -11,7 +11,7 @@ entity Mux8to1 is
         i5:in std_logic_vector (3 downto 0);
         i6:in std_logic_vector (3 downto 0);
         i7:in std_logic_vector (3 downto 0);
-        sel:in std_logic_vector (2 downto 0);
+        s0:in std_logic_vector (2 downto 0);
         o:out std_logic_vector (3 downto 0)
     );
 end;
@@ -38,14 +38,11 @@ architecture Arch_Mux8To1 of Mux8To1 is
     end component;
     signal Mux4To1_Temp1:std_logic_vector (3 downto 0);
     signal Mux4To1_Temp2:std_logic_vector (3 downto 0);
-    signal TempS0:std_logic_vector (1 downto 0);
-    signal TempS1:std_logic;
 begin
-    TempS0 <= sel(1) & sel(2);
-    TempS1 <= sel(0);
-    Mux4To1_1:Mux4To1 port map(i0,i1,i2,i3,TempS0,Mux4To1_Temp1);
-    Mux4To1_2:Mux4To1 port map(i4,i5,i6,i7,TempS0,Mux4To1_Temp2);
-    Mux2To1_1:Mux2To1 port map(Mux4To1_Temp1,Mux4To1_Temp2,TempS1,o);
+
+    Mux4To1_1:Mux4To1 port map(i0,i1,i2,i3,s0(1 downto 0),Mux4To1_Temp1);
+    Mux4To1_2:Mux4To1 port map(i4,i5,i6,i7,s0(1 downto 0),Mux4To1_Temp2);
+    Mux2To1_1:Mux2To1 port map(Mux4To1_Temp1,Mux4To1_Temp2,s0(2),o);
 end;
 
 
@@ -65,16 +62,16 @@ architecture arch_tb of tb is
         i5:in std_logic_vector (3 downto 0);
         i6:in std_logic_vector (3 downto 0);
         i7:in std_logic_vector (3 downto 0);
-        sel:in std_logic_vector (2 downto 0);
+        s0:in std_logic_vector (2 downto 0);
         o:out std_logic_vector (3 downto 0)
     );
 
 end component;
  signal i0,i1,i2,i3,i4,i5,i6,i7,O : std_logic_vector (3 downto 0);
- signal sel :std_logic_vector (2 downto 0);
+ signal s0 :std_logic_vector (2 downto 0);
  
 begin
- mux8to1_temp0: mux8to1 port map(i0,i1,i2,i3,i4,i5,i6,i7,sel,o);
+ mux8to1_temp0: mux8to1 port map(i0,i1,i2,i3,i4,i5,i6,i7,s0,o);
   process is 
   begin
   
@@ -86,29 +83,29 @@ begin
   i5 <= "0101";
   i6 <= "0110";
   i7 <= "0111";
-  sel <= "000";
+  s0 <= "000";
   wait for 10 ps;
   
 
-  sel <= "001";
+  s0 <= "001";
   wait for 10 ps;
   
-   sel <= "010";
+   s0 <= "010";
   wait for 10 ps;
   
-   sel <= "011";
+   s0 <= "011";
   wait for 10 ps;
   
-   sel <= "100";
+   s0 <= "100";
   wait for 10 ps;
   
-   sel <= "101";
+   s0 <= "101";
   wait for 10 ps;
   
-   sel <= "110";
+   s0 <= "110";
   wait for 10 ps;
   
-   sel <= "111";
+   s0 <= "111";
   wait for 10 ps;
   
   end process;
