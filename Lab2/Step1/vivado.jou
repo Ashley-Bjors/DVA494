@@ -3,45 +3,18 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Jan 23 11:21:41 2024
-# Process ID: 16952
+# Start of session at: Tue Jan 23 13:13:29 2024
+# Process ID: 17220
 # Current directory: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19364 C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step1\Step1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2724 C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step1\Step1.xpr
 # Log file: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/vivado.log
 # Journal file: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1\vivado.jou
 # Running On: LAPTOP-H7LB15NM, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 16505 MB
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.xpr}
-update_compile_order -fileset sources_1
-launch_simulation
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top Mux2To1 [current_fileset]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-update_compile_order -fileset sources_1
-launch_simulation
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top Mux8to1 [current_fileset]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-update_compile_order -fileset sources_1
-close_project
-create_project Test C:/Users/noben/Downloads/Test -part xc7a15tcpg236-1
-file mkdir C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new
-close [ open C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new/BadBoi.vhd w ]
-add_files C:/Users/noben/Downloads/Test/Test.srcs/sources_1/new/BadBoi.vhd
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
 launch_simulation
 launch_simulation
-source tb.tcl
-close_sim
 launch_simulation
-source tb.tcl
-open_project {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.xpr}
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+launch_simulation

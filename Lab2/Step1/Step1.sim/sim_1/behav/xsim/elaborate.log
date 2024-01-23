@@ -1,8 +1,8 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mux8to1_behav xil_defaultlib.Mux8to1 -log elaborate.log 
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Mux4To1_behav xil_defaultlib.Mux4To1 -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-ERROR: [VRFC 10-718] formal port <s0> does not exist in entity <Mux4To1>.  Please compare the definition of block <Mux4To1> to its component declaration and its instantion to detect the mismatch. [C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.srcs/sources_1/new/Step1.vhd:26]
-ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mux8to1 in library work failed.
+ERROR: [VRFC 10-718] formal port <sel> does not exist in entity <Mux2To1>.  Please compare the definition of block <Mux2To1> to its component declaration and its instantion to detect the mismatch. [C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step1/Step1.srcs/sources_1/new/Mux4To1.vhd:20]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit mux4to1 in library work failed.

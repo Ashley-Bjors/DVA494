@@ -17,7 +17,7 @@ architecture Arch_Mux4To1 of Mux4To1 is
     (
         i0:in std_logic_vector (3 downto 0);
         i1:in std_logic_vector (3 downto 0);
-        sel:in std_logic_vector (1 downto 0);
+        sel:in std_logic;
         o:out std_logic_vector (3 downto 0)
     );
     end component;
