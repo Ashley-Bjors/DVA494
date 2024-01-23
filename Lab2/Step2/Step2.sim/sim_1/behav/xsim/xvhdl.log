@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab2/Step2/Step2.srcs/sources_1/new/Step2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ArithLogic'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab2/Step2/Step2.srcs/sources_1/new/Step2_Tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb'
