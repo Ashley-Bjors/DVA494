@@ -40,8 +40,8 @@ architecture Arch_Mux8To1 of Mux8To1 is
     signal Mux4To1_Temp2:std_logic_vector (3 downto 0);
 begin
 
-    Mux4To1_1:Mux4To1 port map(i0,i1,i2,i3,s0(1 downto 0),Mux4To1_Temp1);
-    Mux4To1_2:Mux4To1 port map(i4,i5,i6,i7,s0(1 downto 0),Mux4To1_Temp2);
+    Mux4To1_1:Mux4To1 port map(i7,i6,i5,i4,s0(1 downto 0),Mux4To1_Temp1);
+    Mux4To1_2:Mux4To1 port map(i3,i2,i1,i0,s0(1 downto 0),Mux4To1_Temp2);
     Mux2To1_1:Mux2To1 port map(Mux4To1_Temp1,Mux4To1_Temp2,s0(2),o);
 end;
 
