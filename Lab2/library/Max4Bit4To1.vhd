@@ -1,6 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
-entity Mux4To1 is
+entity Max4Bit4To1 is
     port
     (
         i0:in std_logic_vector (3 downto 0);
@@ -11,8 +11,8 @@ entity Mux4To1 is
         o:out std_logic_vector (3 downto 0)
     );
 end;
-architecture Arch_Mux4To1 of Mux4To1 is
-    component Mux2To1 is
+architecture Arch_Max4Bit4To1 of Max4Bit4To1 is
+    component Max4Bit2To1 is
     port
     (
         i0:in std_logic_vector (3 downto 0);
@@ -21,11 +21,11 @@ architecture Arch_Mux4To1 of Mux4To1 is
         o:out std_logic_vector (3 downto 0)
     );
     end component;
-    signal Mux2To1_temp1:std_logic_vector (3 downto 0);
-    signal Mux2To1_temp2:std_logic_vector (3 downto 0);
+    signal Max4Bit2To1_temp1:std_logic_vector (3 downto 0);
+    signal Max4Bit2To1_temp2:std_logic_vector (3 downto 0);
 begin
 
-    Mux2To1_1:Mux2To1 port map(i0,i1,s0(0),Mux2To1_temp1);
-    Mux2To1_2:Mux2To1 port map(i2,i3,s0(0),Mux2To1_temp2);
-    Mux2To1_3:Mux2To1 port map(Mux2To1_temp1,Mux2To1_temp2,s0(1),o);
+    Max4Bit2To1_1:Max4Bit2To1 port map(i0,i1,s0(0),Max4Bit2To1_temp1);
+    Max4Bit2To1_2:Max4Bit2To1 port map(i2,i3,s0(0),Max4Bit2To1_temp2);
+    Max4Bit2To1_3:Max4Bit2To1 port map(Max4Bit2To1_temp1,Max4Bit2To1_temp2,s0(1),o);
 end;

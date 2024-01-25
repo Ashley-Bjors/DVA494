@@ -1,7 +1,7 @@
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_signed.all;
-entity Mux2To1 is
+entity Max4Bit2To1 is
     port
     (
         i0:in std_logic_vector (3 downto 0);
@@ -10,7 +10,7 @@ entity Mux2To1 is
         o:out std_logic_vector (3 downto 0)
     );
 end;
-architecture Arch_Mux2To1 of Mux2To1 is
+architecture Arch_Max4Bit2To1 of Max4Bit2To1 is
     signal TempS:std_logic_vector (3 downto 0);
     signal Nots0:std_logic_vector (3 downto 0);
     signal And0:std_logic_vector (3 downto 0);
