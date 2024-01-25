@@ -57,9 +57,9 @@ signal AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero: std_logic_vector (3 dow
 signal Result: std_logic_vector (3 downto 0);
 
 begin   
-FaultInjector : FaultInjector port map(A,B,FaultLocation,Operation,FaultyA,FaultyB,FaultyOp);
-ArithLogic : ArithLogic port map (FaultyA,FaultyB,AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero);
-Max4Bit8To1 : Max4Bit8To1 port map (AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero,FaultyOp,Result);
+FaultInjector_1 : FaultInjector port map(A,B,FaultLocation,Operation,FaultyA,FaultyB,FaultyOp);
+ArithLogic_1 : ArithLogic port map (FaultyA,FaultyB,AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero);
+Max4Bit8To1_1 : Max4Bit8To1 port map (AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero,FaultyOp,Result);
     process is
     begin
         --ENTER BIG PHAT LUNA CODE
