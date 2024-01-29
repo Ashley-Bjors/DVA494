@@ -8,8 +8,7 @@ entity FaultyALU is
          FaultLocation: in std_logic_vector (3 downto 0);
          Operation: in std_logic_vector (2 downto 0);
          
-         Result1 : out std_logic_vector( 3 downto 0);
-         Result2 : out std_logic_vector( 3 downto 0)
+         Result : out std_logic_vector( 3 downto 0)
     );
 end;
 
@@ -68,7 +67,7 @@ signal FaultyOp: std_logic_vector (2 downto 0);
 --ArithLogic Outputs
 signal AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero: std_logic_vector (3 downto 0);
 --Max4Bit8To1 Outputs
-signal Result: std_logic_vector (3 downto 0);
+--signal Result: std_logic_vector (3 downto 0);
 
 begin   
 Fault_Inject_1 : Fault_Inject port map(IA,IB,FaultLocation,Operation,FaultyA,FaultyB,FaultyOp);
