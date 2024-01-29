@@ -1,9 +1,23 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+entity FaultyALU is
+    port(
+         IA : in std_logic_vector( 3 downto 0);
+         IB : in std_logic_vector( 3 downto 0);
+         FaultLocation: in std_logic_vector (3 downto 0);
+         Operation: in std_logic_vector (2 downto 0);
+         
+         Result1 : out std_logic_vector( 3 downto 0);
+         Result2 : out std_logic_vector( 3 downto 0);
+    );
+end;
+
+library ieee;
+use ieee.std_logic_1164.all;
 use ieee.std_logic_signed.all;
-entity FaultyALU is end;
 architecture archFaultyALU of FaultyALU is
-component FaultInjector is
+component Fault_Inject is
     port(
         IA : in std_logic_vector( 3 downto 0);
         IB : in std_logic_vector( 3 downto 0);
@@ -57,11 +71,7 @@ signal AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero: std_logic_vector (3 dow
 signal Result: std_logic_vector (3 downto 0);
 
 begin   
-FaultInjector_1 : FaultInjector port map(A,B,FaultLocation,Operation,FaultyA,FaultyB,FaultyOp);
+Fault_Inject_1 : Fault_Inject port map(A,B,FaultLocation,Operation,FaultyA,FaultyB,FaultyOp);
 ArithLogic_1 : ArithLogic port map (FaultyA,FaultyB,AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero);
 Max4Bit8To1_1 : Max4Bit8To1 port map (AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero,FaultyOp,Result);
-    process is
-    begin
-        --ENTER BIG PHAT LUNA CODE
-    end process
 end;
