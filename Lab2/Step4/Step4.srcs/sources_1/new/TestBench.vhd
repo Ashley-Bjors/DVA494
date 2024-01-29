@@ -8,7 +8,7 @@ architecture arch_tb of tb is
         FaultLocation: in std_logic_vector (3 downto 0);
         Operation: in std_logic_vector (2 downto 0);
         
-        Result : out std_logic_vector( 3 downto 0);
+        Result : out std_logic_vector( 3 downto 0)
    );
 end component;
  signal IA,IB,FaultLocation,Result0,Result1 : std_logic_vector (3 downto 0);
@@ -16,7 +16,7 @@ end component;
  
 begin
     FaultyALU0: FaultyALU port map(IA,IB,FaultLocation,Operation,Result0);
-    FaultyALU0: FaultyALU port map(IA,IB,"1111",Operation,Result1);
+    FaultyALU1: FaultyALU port map(IA,IB,"1111",Operation,Result1);
   process is 
 
   begin

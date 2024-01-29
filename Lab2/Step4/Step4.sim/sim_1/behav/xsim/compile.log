@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab2/Step4/Step4.srcs/sources_1/new/Step4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'FaultyALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab2/Step4/Step4.srcs/sources_1/new/TestBench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb'

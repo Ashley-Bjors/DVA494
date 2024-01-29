@@ -9,7 +9,7 @@ entity FaultyALU is
          Operation: in std_logic_vector (2 downto 0);
          
          Result1 : out std_logic_vector( 3 downto 0);
-         Result2 : out std_logic_vector( 3 downto 0);
+         Result2 : out std_logic_vector( 3 downto 0)
     );
 end;
 
@@ -60,8 +60,8 @@ component Max4Bit8To1 is
     );
 end component;
 --Global Inputs
-signal A,B,FaultLocation: std_logic_vector (3 downto 0);
-signal Operation: std_logic_vector (2 downto 0);
+--signal A,B,FaultLocation: std_logic_vector (3 downto 0);
+--signal Operation: std_logic_vector (2 downto 0);
 --Fault Injector Outputs
 signal FaultyA,FaultyB: std_logic_vector (3 downto 0);
 signal FaultyOp: std_logic_vector (2 downto 0);
@@ -71,7 +71,7 @@ signal AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero: std_logic_vector (3 dow
 signal Result: std_logic_vector (3 downto 0);
 
 begin   
-Fault_Inject_1 : Fault_Inject port map(A,B,FaultLocation,Operation,FaultyA,FaultyB,FaultyOp);
+Fault_Inject_1 : Fault_Inject port map(IA,IB,FaultLocation,Operation,FaultyA,FaultyB,FaultyOp);
 ArithLogic_1 : ArithLogic port map (FaultyA,FaultyB,AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero);
 Max4Bit8To1_1 : Max4Bit8To1 port map (AplusB,AandB,AxorB,AnandB,APlusOne,Ao,Bo,AllZero,FaultyOp,Result);
 end;
