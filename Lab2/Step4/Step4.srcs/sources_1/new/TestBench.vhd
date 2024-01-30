@@ -47,6 +47,12 @@ begin
   Operation <= "010";
   wait for 10 ps;
   
+   Operation <= "100";
+  wait for 10 ps;
+  
+   Operation <= "101";
+  wait for 10 ps;
+  
   Operation <= "100";
   wait for 10 ps;
   
