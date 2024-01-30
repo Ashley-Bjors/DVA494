@@ -1,3 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab2/Step1/Step1.srcs/sources_1/new/Step1.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Mux8to1'
-INFO: [VRFC 10-3107] analyzing entity 'tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Max4Bit2To1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Max4Bit2To1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Max4Bit4To1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Max4Bit4To1'

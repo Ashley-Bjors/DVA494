@@ -1,5 +1,10 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
+"../../../../../library/ArithLogic.vhd" \
+"../../../../../library/FaultInjector.vhd" \
+"../../../../../library/Max4Bit2To1.vhd" \
+"../../../../../library/Max4Bit4To1.vhd" \
+"../../../../../library/Max4Bit8To1.vhd" \
 "../../../../Step4.srcs/sources_1/new/Step4.vhd" \
 "../../../../Step4.srcs/sources_1/new/TestBench.vhd" \
 

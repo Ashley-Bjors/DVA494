@@ -21,7 +21,6 @@ signal ID : integer range 0 to 3;
 begin
 
 ID <=  TO_INTEGER(unsigned(FaultLocation(1 downto 0)));
---temp(ID) <= '1';
 
 temp <= (ID => '1', others => '0');
 
