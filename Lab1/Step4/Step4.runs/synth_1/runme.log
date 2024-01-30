@@ -1,0 +1,220 @@
+
+*** Running vivado
+    with args -log Mux4To1Inst.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mux4To1Inst.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Mux4To1Inst.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 450.723 ; gain = 181.973
+Command: read_checkpoint -auto_incremental -incremental D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/utils_1/imports/synth_1/tb.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/utils_1/imports/synth_1/tb.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Mux4To1Inst -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20436
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 900.352 ; gain = 437.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Mux4To1Inst' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:119]
+INFO: [Synth 8-3491] module 'Mux2To1' declared at 'D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:58' bound to instance 'mutex0' of component 'Mux2To1' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:135]
+INFO: [Synth 8-638] synthesizing module 'Mux2To1' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:67]
+INFO: [Synth 8-3491] module 'Gate_Not' declared at 'D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:41' bound to instance 'NotGate' of component 'Gate_Not' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'Gate_Not' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'Gate_Not' (0#1) [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:48]
+INFO: [Synth 8-3491] module 'Gate_And' declared at 'D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:5' bound to instance 'AndGate0' of component 'Gate_And' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'Gate_And' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Gate_And' (0#1) [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:13]
+INFO: [Synth 8-3491] module 'Gate_And' declared at 'D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:5' bound to instance 'AndGate1' of component 'Gate_And' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:97]
+INFO: [Synth 8-3491] module 'Gate_Or' declared at 'D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:23' bound to instance 'OrGate' of component 'Gate_Or' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'Gate_Or' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Gate_Or' (0#1) [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'Mux2To1' (0#1) [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:67]
+INFO: [Synth 8-3491] module 'Mux2To1' declared at 'D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:58' bound to instance 'mutex1' of component 'Mux2To1' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:136]
+INFO: [Synth 8-3491] module 'Mux2To1' declared at 'D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:58' bound to instance 'mutex2' of component 'Mux2To1' [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:137]
+INFO: [Synth 8-256] done synthesizing module 'Mux4To1Inst' (0#1) [D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/sources_1/new/Step4.vhd:119]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1006.688 ; gain = 543.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1006.688 ; gain = 543.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1006.688 ; gain = 543.891
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint D:/Skola/3/DVA494/Lab1/Step4/Step4.srcs/utils_1/imports/synth_1/tb.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1006.688 ; gain = 543.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1006.688 ; gain = 543.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1006.688 ; gain = 543.891
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1180.406 ; gain = 717.609
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT6 |     1|
+|2     |IBUF |     6|
+|3     |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     8|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1181.297 ; gain = 718.500
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1194.273 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1285.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Det g†r inte att hitta s”kv„gen.
+Synth Design complete | Checksum: 4ca3776d
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1285.914 ; gain = 831.188
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1285.914 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/Skola/3/DVA494/Lab1/Step4/Step4.runs/synth_1/Mux4To1Inst.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Mux4To1Inst_utilization_synth.rpt -pb Mux4To1Inst_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 30 12:46:57 2024...

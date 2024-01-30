@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Jan 18 10:57:16 2024
-# Process ID: 25028
-# Current directory: C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494-Lab1/Step1/Step1.runs/synth_1
-# Command line: vivado.exe -log tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb.tcl
-# Log file: C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494-Lab1/Step1/Step1.runs/synth_1/tb.vds
-# Journal file: C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494-Lab1/Step1/Step1.runs/synth_1\vivado.jou
-# Running On: LAPTOP-UE4LDILN, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14888 MB
+# Start of session at: Tue Jan 30 12:35:15 2024
+# Process ID: 2948
+# Current directory: D:/Skola/3/DVA494/Lab1/Step1/Step1.runs/synth_1
+# Command line: vivado.exe -log hello_and.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hello_and.tcl
+# Log file: D:/Skola/3/DVA494/Lab1/Step1/Step1.runs/synth_1/hello_and.vds
+# Journal file: D:/Skola/3/DVA494/Lab1/Step1/Step1.runs/synth_1\vivado.jou
+# Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
 #-----------------------------------------------------------
-source tb.tcl -notrace
+source hello_and.tcl -notrace

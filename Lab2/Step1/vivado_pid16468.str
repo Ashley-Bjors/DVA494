@@ -183,3 +183,15 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sourc
 selectCodeEditor("Step1.vhd", 263, 183); // ad (Step1.vhd)
 // Elapsed time: 132 seconds
 selectCodeEditor("Step1.vhd", 404, 326); // ad (Step1.vhd)
+// Elapsed time: 58 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb(arch_tb) (Step1.vhd), mux8to1_temp0 : Mux8to1(Arch_Mux8To1) (Step1.vhd)]", 2); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// [GUI Memory]: 141 MB (+4194kb) [00:12:46]
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 8481ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  8489 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 11706 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 11720 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 11856 ms. Increasing delay to 35568 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 8 ms. Decreasing delay to 2008 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,103 MB. GUI used memory: 76 MB. Current time: 1/23/24, 2:57:40 PM CET
+// [GUI Memory]: 148 MB (+468kb) [00:37:50]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1120 ms. Increasing delay to 3360 ms.

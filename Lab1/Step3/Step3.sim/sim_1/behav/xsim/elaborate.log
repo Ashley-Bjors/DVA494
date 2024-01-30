@@ -1,7 +1,7 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/school/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_behav xil_defaultlib.tb -log elaborate.log 
+Running: D:/Skola/program/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_behav xil_defaultlib.tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -14,6 +14,6 @@ Compiling package ieee.std_logic_1164
 Compiling architecture arch_not of entity xil_defaultlib.Gate_Not [gate_not_default]
 Compiling architecture arch_and_3 of entity xil_defaultlib.Gate_And_3 [gate_and_3_default]
 Compiling architecture arch_or_4 of entity xil_defaultlib.Gate_Or_4 [gate_or_4_default]
-Compiling architecture arch_mux4to1 of entity xil_defaultlib.Mux4To1 [mux4to1_default]
+Compiling architecture arch_mux4to1exp of entity xil_defaultlib.Mux4To1Exp [mux4to1exp_default]
 Compiling architecture tb_arch of entity xil_defaultlib.tb
 Built simulation snapshot tb_behav

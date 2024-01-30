@@ -167,7 +167,7 @@ end component;
         port map(i0,i1,i2,i3,s0,s1,out0);
         process is
         begin
-            i0 <= '0';
+      i0 <= '0';
             i1 <= '0';
             i2 <= '0';
             i3 <= '0';
@@ -189,7 +189,7 @@ end component;
             wait for 10 ps;  
             
             i0 <= '1';
-            s1 <= '1';
+            s1 <= '0';
             wait for 10 ps;  
             
             i0 <= '0';
@@ -211,6 +211,45 @@ end component;
             
             i3 <= '1';
             wait for 10 ps;
+
+            i0 <= '1';
+            i1 <= '1';
+            i2 <= '1';
+            i3 <= '0';
+            s0 <= '1';
+            s1 <= '1';
+            wait for 10 ps;  
             
+            i0 <= '0';
+            i1 <= '1';
+            i2 <= '1';
+            i3 <= '1';
+            s0 <= '0';
+            s1 <= '0';
+            wait for 10 ps;  
+            
+            i0 <= '1';
+            i1 <= '0';
+            i2 <= '1';
+            i3 <= '1';
+            s0 <= '1';
+            s1 <= '0';
+            wait for 10 ps; 
+            
+            i0 <= '1';
+            i1 <= '1';
+            i2 <= '0';
+            i3 <= '1';
+            s0 <= '0';
+            s1 <= '1';
+            wait for 10 ps;   
+            
+            i0 <= '1';
+            i1 <= '0';
+            i2 <= '0';
+            i3 <= '1';
+            s0 <= '1';
+            s1 <= '1';
+            wait for 10 ps;  
         end process;
     end;

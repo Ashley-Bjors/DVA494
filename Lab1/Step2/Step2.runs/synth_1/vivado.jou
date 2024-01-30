@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jan 30 12:38:39 2024
+# Process ID: 17196
+# Current directory: D:/Skola/3/DVA494/Lab1/Step2/Step2.runs/synth_1
+# Command line: vivado.exe -log Mux2To1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mux2To1.tcl
+# Log file: D:/Skola/3/DVA494/Lab1/Step2/Step2.runs/synth_1/Mux2To1.vds
+# Journal file: D:/Skola/3/DVA494/Lab1/Step2/Step2.runs/synth_1\vivado.jou
+# Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
+#-----------------------------------------------------------
+source Mux2To1.tcl -notrace

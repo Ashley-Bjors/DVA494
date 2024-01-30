@@ -1,52 +1,51 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.29)  22 JAN 2024 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.12) (preloaded format=pdflatex 2024.1.23)  30 JAN 2024 13:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494-Lab1/report/main.tex"
-(c:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494-Lab1/report/main.tex
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-09>
-(C:\MiKTeX\tex/latex/base\article.cls
+**d:/Skola/3/DVA494/Lab1/report/main.tex
+(d:/Skola/3/DVA494/Lab1/report/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(D:\Skola\program\ash_virus\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\MiKTeX\tex/latex/base\size10.clo
+(D:\Skola\program\ash_virus\tex/latex/base\size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\MiKTeX\tex/latex/graphics\graphicx.sty
+) (D:\Skola\program\ash_virus\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\MiKTeX\tex/latex/graphics\keyval.sty
+ (D:\Skola\program\ash_virus\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (C:\MiKTeX\tex/latex/graphics\graphics.sty
+) (D:\Skola\program\ash_virus\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\MiKTeX\tex/latex/graphics\trig.sty
+ (D:\Skola\program\ash_virus\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (D:\Skola\program\ash_virus\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (D:\Skola\program\ash_virus\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (C:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count194
+) (D:\Skola\program\ash_virus\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count195
 \l__pdf_internal_box=\box51
-)
-No file main.aux.
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -63,51 +62,148 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
-(C:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (D:\Skola\program\ash_virus\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
+\scratchcounter=\count196
 \scratchdimen=\dimen143
 \scratchbox=\box52
-\nofMPsegments=\count196
-\nofMParguments=\count197
+\nofMPsegments=\count197
+\nofMParguments=\count198
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count198
+\MPscratchCnt=\count199
 \MPscratchDim=\dimen144
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
 \everyMPtoPDFconversion=\toks19
-) (C:\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (D:\Skola\program\ash_virus\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (D:\Skola\program\ash_virus\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
- [1
+(Font)              <6> on input line 9.
+<images/lut_step1.png, id=1, 121.6545pt x 100.57574pt>
+File: images/lut_step1.png Graphic file (type png)
+<use images/lut_step1.png>
+Package pdftex.def Info: images/lut_step1.png  used on input line 15.
+(pdftex.def)             Requested size: 142.26378pt x 117.62709pt.
+<images/lut_step2.png, id=3, 118.041pt x 100.57574pt>
+File: images/lut_step2.png Graphic file (type png)
+<use images/lut_step2.png>
+Package pdftex.def Info: images/lut_step2.png  used on input line 21.
+(pdftex.def)             Requested size: 142.26378pt x 121.2228pt.
+<images/lut_step3.png, id=4, 122.25674pt x 101.78024pt>
+File: images/lut_step3.png Graphic file (type png)
+<use images/lut_step3.png>
+Package pdftex.def Info: images/lut_step3.png  used on input line 27.
+(pdftex.def)             Requested size: 142.26378pt x 118.44252pt.
 
-{C:/Users/Ashley Björs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/lut_step4.png, id=5, 121.6545pt x 99.9735pt>
+File: images/lut_step4.png Graphic file (type png)
+<use images/lut_step4.png>
+Package pdftex.def Info: images/lut_step4.png  used on input line 33.
+(pdftex.def)             Requested size: 142.26378pt x 116.92273pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/lut_step5.png, id=6, 118.041pt x 92.14426pt>
+File: images/lut_step5.png Graphic file (type png)
+<use images/lut_step5.png>
+Package pdftex.def Info: images/lut_step5.png  used on input line 39.
+(pdftex.def)             Requested size: 142.26378pt x 111.06041pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1
+
+{C:/Users/Elliot/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/lut_step1.png> <./images/lut_step2.png>] [2 <./images/lut_step3.png> <./images/lut_step4.png> <./images/lut_step5.png>]
+<images/sim_step1.png, id=23, 501.67426pt x 145.14224pt>
+File: images/sim_step1.png Graphic file (type png)
+<use images/sim_step1.png>
+Package pdftex.def Info: images/sim_step1.png  used on input line 50.
+(pdftex.def)             Requested size: 369.88582pt x 107.01599pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 50--52
+ [][] 
+ []
+
+<images/sim_step2.png, id=24, 651.6345pt x 177.66376pt>
+File: images/sim_step2.png Graphic file (type png)
+<use images/sim_step2.png>
+Package pdftex.def Info: images/sim_step2.png  used on input line 56.
+(pdftex.def)             Requested size: 369.88582pt x 100.84648pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 56--58
+ [][] 
+ []
+
+<images/sim_step3.png, id=25, 507.0945pt x 169.8345pt>
+File: images/sim_step3.png Graphic file (type png)
+<use images/sim_step3.png>
+Package pdftex.def Info: images/sim_step3.png  used on input line 71.
+(pdftex.def)             Requested size: 369.88582pt x 123.88744pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 71--73
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/sim_step4.png, id=26, 503.481pt x 218.0145pt>
+File: images/sim_step4.png Graphic file (type png)
+<use images/sim_step4.png>
+Package pdftex.def Info: images/sim_step4.png  used on input line 77.
+(pdftex.def)             Requested size: 369.88582pt x 160.16719pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 77--79
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/sim_step5.png, id=27, 507.0945pt x 236.082pt>
+File: images/sim_step5.png Graphic file (type png)
+<use images/sim_step5.png>
+Package pdftex.def Info: images/sim_step5.png  used on input line 83.
+(pdftex.def)             Requested size: 369.88582pt x 172.21233pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 83--85
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3
+
+ <./images/sim_step1.png> <./images/sim_step2.png>] [4 <./images/sim_step3.png> <./images/sim_step4.png> <./images/sim_step5.png>] (main.aux)
  ***********
-LaTeX2e <2023-11-01>
-L3 programming layer <2023-11-09>
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1292 strings out of 474586
- 20687 string characters out of 5762069
- 1924558 words of memory out of 5000000
- 23516 multiletter control sequences out of 15000+600000
- 561709 words of font info for 48 fonts, out of 8000000 for 9000
+ 1422 strings out of 474485
+ 24325 string characters out of 5752173
+ 1927542 words of memory out of 5000000
+ 23744 multiletter control sequences out of 15000+600000
+ 562044 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,253b,207s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (1 page, 41297 bytes).
+ 57i,7n,65p,211b,226s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Elliot\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/Skola/program/ash_virus/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Skola/program/ash_virus/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Skola/program/ash_virus/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Skola/program/ash_virus/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on main.pdf (4 pages, 133993 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

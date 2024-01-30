@@ -148,3 +148,9 @@ Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // Tcl Message: open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:17 . Memory (MB): peak = 1406.648 ; gain = 350.551 
 dismissDialog("Open Project"); // bq (Open Project Progress)
 // [GUI Memory]: 133 MB (+1701kb) [00:00:33]
+// [GUI Memory]: 145 MB (+6328kb) [00:07:46]
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 10937ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  10945 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 11857 ms. Increasing delay to 35571 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1 ms. Decreasing delay to 2001 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,055 MB. GUI used memory: 72 MB. Current time: 1/23/24, 2:57:15 PM CET
