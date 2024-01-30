@@ -59,7 +59,18 @@ INPUT .\Images\Lut 2.png
 INPUT .\Images\Lut 2.png
 INPUT .\Images\Lut 2.png
 INPUT .\Images\Lut 2.png
-INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
+INPUT .\Images\Lut 2.png
 INPUT C:\Users\jonas\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\Images\Wave 1.1.png
 INPUT .\Images\Wave 1.1.png
@@ -75,7 +86,6 @@ INPUT .\Images\Wave 2.1.png
 INPUT .\Images\Wave 2.1.png
 INPUT .\Images\Wave 2.1.png
 INPUT .\Images\Wave 2.1.png
-INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT .\Images\Wave 3.1.png
 INPUT .\Images\Wave 3.1.png
 INPUT .\Images\Wave 3.1.png
@@ -92,8 +102,6 @@ INPUT .\Images\Wave 3.1.png
 INPUT .\Images\Wave 3.1.png
 INPUT .\Images\Wave 3.1.png
 INPUT main.aux
-INPUT C:\Users\jonas\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\jonas\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
@@ -102,5 +110,3 @@ INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
-INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
