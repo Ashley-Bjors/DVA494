@@ -3,72 +3,22 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Jan 30 11:19:15 2024
-# Process ID: 25980
-# Current directory: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step4
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9152 C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step4\Step4.xpr
-# Log file: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step4/vivado.log
-# Journal file: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step4\vivado.jou
-# Running On: LAPTOP-H7LB15NM, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 16505 MB
+# Start of session at: Tue Jan 30 14:22:31 2024
+# Process ID: 14716
+# Current directory: D:/Skola/3/DVA494/Lab2/Step4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13960 D:\Skola\3\DVA494\Lab2\Step4\Step4.xpr
+# Log file: D:/Skola/3/DVA494/Lab2/Step4/vivado.log
+# Journal file: D:/Skola/3/DVA494/Lab2/Step4\vivado.jou
+# Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step4/Step4.xpr}
+open_project D:/Skola/3/DVA494/Lab2/Step4/Step4.xpr
 update_compile_order -fileset sources_1
-export_ip_user_files -of_objects  [get_files {{C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Mux4To1.vhd}}] -no_script -reset -force -quiet
-remove_files  {{C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Mux4To1.vhd}}
-export_ip_user_files -of_objects  [get_files {{C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Mux2To1.vhd}}] -no_script -reset -force -quiet
-remove_files  {{C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Mux2To1.vhd}}
-add_files -norecurse {{C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/ArithLogic.vhd} {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/FaultInjector.vhd}}
-add_files -norecurse {{C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Max4Bit2To1.vhd} {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Max4Bit4To1.vhd} {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/Max4Bit8To1.vhd}}
-launch_simulation
-source tb.tcl
-close_sim
-launch_simulation
-source tb.tcl
-current_wave_config {Untitled 2}
-add_wave {{/tb}} 
-current_wave_config {Untitled 2}
-add_wave {{/tb/FaultyALU1}} 
-add_wave {{/tb/FaultyALU0}} 
-current_wave_config {Untitled 3}
-add_wave {{/tb/FaultyALU1}} 
-current_wave_config {Untitled 3}
-add_wave {{/tb/FaultyALU1}} 
-close_sim
-launch_simulation
-source tb.tcl
-current_wave_config {Untitled 4}
-add_wave {{/tb}} 
-close_sim
-launch_simulation
-source tb.tcl
-close_sim
-launch_simulation
-source tb.tcl
-close_sim
-launch_simulation
-source tb.tcl
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top tb1 [current_fileset]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
 update_compile_order -fileset sources_1
-close_sim
 launch_simulation
 source tb.tcl
 close_sim
 launch_simulation
-source tb.tcl
-close_sim
-launch_simulation
-source tb.tcl
-close_sim
-launch_simulation
-source tb.tcl
-add_bp {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/FaultInjector.vhd} 23
-remove_bps -file {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/library/FaultInjector.vhd} -line 23
-close_sim
 launch_simulation
 source tb.tcl
 close_sim

@@ -12,9 +12,6 @@ entity FaultyALU is
     );
 end;
 
-library ieee;
-use ieee.std_logic_1164.all;
-use ieee.std_logic_signed.all;
 architecture archFaultyALU of FaultyALU is
 component Fault_Inject is
     port(
@@ -31,7 +28,7 @@ end component;
 component ArithLogic is
     port
     (
-        A,
+        A:in std_logic_vector (3 downto 0);
         B:in std_logic_vector (3 downto 0);
         AplusB,
         AandB,
@@ -59,7 +56,7 @@ component Max4Bit8To1 is
     );
 end component;
 --Global Inputs
---signal A,B,FaultLocation: std_logic_vector (3 downto 0);
+--signal IA,IB,FaultLocation: std_logic_vector (3 downto 0);
 --signal Operation: std_logic_vector (2 downto 0);
 --Fault Injector Outputs
 signal FaultyA,FaultyB: std_logic_vector (3 downto 0);
