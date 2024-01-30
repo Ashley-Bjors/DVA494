@@ -1,3 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab2/Step3/Step3.srcs/sources_1/new/FaultInjector.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'Fault_Inject'
-INFO: [VRFC 10-3107] analyzing entity 'tb'
