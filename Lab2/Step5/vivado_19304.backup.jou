@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Feb  1 10:17:26 2024
-# Process ID: 23916
+# Start of session at: Thu Feb  1 09:09:02 2024
+# Process ID: 19304
 # Current directory: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step5
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10952 C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step5\Step5.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17180 C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step5\Step5.xpr
 # Log file: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step5/vivado.log
 # Journal file: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step5\vivado.jou
 # Running On: LAPTOP-H7LB15NM, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 16505 MB
@@ -19,3 +19,37 @@ source tb.tcl
 close_sim
 launch_simulation
 source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim
+launch_simulation
+source tb.tcl
+close_sim

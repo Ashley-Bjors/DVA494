@@ -21,7 +21,7 @@ architecture Arch_ArithLogic of ArithLogic is
     AplusB <= A + B;
     AandB <= A and B;
     AxorB <= A xor B;
-    AnandB <= A nor B;
+    AnandB <= A nand B;
     APlusOne <= A + "0001";
     Ao <= A;
     Bo <= B;

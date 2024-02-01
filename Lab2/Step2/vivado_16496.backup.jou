@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Feb  1 10:11:30 2024
-# Process ID: 16864
+# Start of session at: Tue Jan 30 11:06:22 2024
+# Process ID: 16496
 # Current directory: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12152 C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step2\Step2.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9380 C:\Users\noben\OneDrive - Mälardalens högskola\Documents\GitHub\DVA494\Lab2\Step2\Step2.xpr
 # Log file: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step2/vivado.log
 # Journal file: C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step2\vivado.jou
 # Running On: LAPTOP-H7LB15NM, OS: Windows, CPU Frequency: 2371 MHz, CPU Physical cores: 6, Host memory: 16505 MB
@@ -14,3 +14,6 @@
 start_gui
 open_project {C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab2/Step2/Step2.xpr}
 update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim
