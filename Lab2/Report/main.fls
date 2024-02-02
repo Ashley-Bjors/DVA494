@@ -47,60 +47,43 @@ INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
+INPUT .\Images\Wave 1.png
+INPUT .\Images\Wave 1.png
+INPUT .\Images\Wave 1.png
+INPUT .\Images\Wave 1.png
 OUTPUT main.pdf
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
-INPUT .\Images\Lut 2.png
+INPUT .\Images\Wave 1.png
+INPUT .\Images\Wave 1.png
+INPUT .\Images\Wave 1.png
+INPUT .\Images\Wave 2.png
+INPUT .\Images\Wave 2.png
+INPUT .\Images\Wave 2.png
+INPUT .\Images\Wave 2.png
+INPUT .\Images\Wave 2.png
+INPUT .\Images\Wave 2.png
+INPUT .\Images\Wave 2.png
+INPUT .\Images\Wave 3.png
+INPUT .\Images\Wave 3.png
+INPUT .\Images\Wave 3.png
+INPUT .\Images\Wave 3.png
+INPUT .\Images\Wave 3.png
+INPUT .\Images\Wave 3.png
+INPUT .\Images\Wave 3.png
+INPUT .\Images\Wave 4.png
+INPUT .\Images\Wave 4.png
+INPUT .\Images\Wave 4.png
+INPUT .\Images\Wave 4.png
+INPUT .\Images\Wave 4.png
+INPUT .\Images\Wave 4.png
+INPUT .\Images\Wave 4.png
+INPUT .\Images\Wave 5.png
+INPUT .\Images\Wave 5.png
+INPUT .\Images\Wave 5.png
+INPUT .\Images\Wave 5.png
+INPUT .\Images\Wave 5.png
+INPUT .\Images\Wave 5.png
+INPUT .\Images\Wave 5.png
 INPUT C:\Users\jonas\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\Images\Wave 1.1.png
-INPUT .\Images\Wave 1.1.png
-INPUT .\Images\Wave 1.1.png
-INPUT .\Images\Wave 1.1.png
-INPUT .\Images\Wave 1.1.png
-INPUT .\Images\Wave 1.1.png
-INPUT .\Images\Wave 1.1.png
-INPUT .\Images\Wave 2.1.png
-INPUT .\Images\Wave 2.1.png
-INPUT .\Images\Wave 2.1.png
-INPUT .\Images\Wave 2.1.png
-INPUT .\Images\Wave 2.1.png
-INPUT .\Images\Wave 2.1.png
-INPUT .\Images\Wave 2.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
-INPUT .\Images\Wave 3.1.png
 INPUT main.aux
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\jonas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb

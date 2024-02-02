@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1706624928.17854 "c:/Universitet/3. Reliable System/DVA494/Lab2/Report/main.tex" "main.pdf" "main" 1706624928.81345 0
+["pdflatex"] 1706876445.99997 "c:/Universitet/3. Reliable System/DVA494/Lab2/Report/main.tex" "main.pdf" "main" 1706876446.76902 0
   "C:/Users/jonas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1706617360 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/jonas/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1706617369 24141908 4ea333c80b015ed3549d1baf05f38e7d ""
   "C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -29,13 +29,14 @@
   "C:/Users/jonas/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "C:/Users/jonas/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665067579 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "C:/Users/jonas/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681896761 29940 9473d58112bc8a88f5505b823a053dde ""
-  "Images/Lut 2.png" 1706620906 4205 508ff22749cf85386c57bd972bf932c0 ""
-  "Images/Wave 1.1.png" 1706620517 22294 0dd3302a90e7430a00d225e583a93c7e ""
-  "Images/Wave 2.1.png" 1706619345 25528 6fe88b1b660757efc14916cfd21f9230 ""
-  "Images/Wave 3.1.png" 1706621793 24182 a8a2644c2825c81f744b9e78bdc4d0d0 ""
-  "c:/Universitet/3. Reliable System/DVA494/Lab2/Report/main.tex" 1706624927 2391 782036fa546d1048645baee74fd31a8a ""
-  "main.aux" 1706624928 1664 c381638b89556e5691293eedbe60cb11 "pdflatex"
-  "main.tex" 1706624927 2391 782036fa546d1048645baee74fd31a8a ""
+  "Images/Wave 1.png" 1706876085 17649 3392065c68af0e5acca72c587bc92995 ""
+  "Images/Wave 2.png" 1706876148 22076 455f73b0609f9981a725b7be7f10ae3c ""
+  "Images/Wave 3.png" 1706773576 26246 b71cc69d9cf6c275029718b15f65198c ""
+  "Images/Wave 4.png" 1706773576 16710 d41b024d3d43779e83278ea5486bd0db ""
+  "Images/Wave 5.png" 1706876267 16103 5df47fba63ae341c8bd9ac4b669cf96a ""
+  "c:/Universitet/3. Reliable System/DVA494/Lab2/Report/main.tex" 1706876443 1575 095adc7ad9a4dc880f3c0789a7f97a54 ""
+  "main.aux" 1706876446 902 44a890e8273756662b96915085649f69 "pdflatex"
+  "main.tex" 1706876443 1575 095adc7ad9a4dc880f3c0789a7f97a54 ""
   (generated)
   "main.aux"
   "main.log"

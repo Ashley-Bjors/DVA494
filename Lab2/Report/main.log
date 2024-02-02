@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.30)  30 JAN 2024 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.30)  2 FEB 2024 13:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -87,117 +87,88 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
-<Images/Lut 2.png, id=1, 127.677pt x 112.62074pt>
-File: Images/Lut 2.png Graphic file (type png)
-<use Images/Lut 2.png>
-Package pdftex.def Info: Images/Lut 2.png  used on input line 19.
-(pdftex.def)             Requested size: 142.26378pt x 125.49165pt.
-File: Images/Lut 2.png Graphic file (type png)
-<use Images/Lut 2.png>
-Package pdftex.def Info: Images/Lut 2.png  used on input line 25.
-(pdftex.def)             Requested size: 142.26378pt x 125.49165pt.
+<Images/Wave 1.png, id=1, 682.9515pt x 208.3785pt>
+File: Images/Wave 1.png Graphic file (type png)
+<use Images/Wave 1.png>
+Package pdftex.def Info: Images/Wave 1.png  used on input line 19.
+(pdftex.def)             Requested size: 369.88582pt x 112.85655pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 19--21
+ [][] 
+ []
+
+<Images/Wave 2.png, id=3, 593.8185pt x 198.14024pt>
+File: Images/Wave 2.png Graphic file (type png)
+<use Images/Wave 2.png>
+Package pdftex.def Info: Images/Wave 2.png  used on input line 25.
+(pdftex.def)             Requested size: 369.88582pt x 123.4201pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 25--27
+ [][] 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Images/Lut 2.png Graphic file (type png)
-<use Images/Lut 2.png>
-Package pdftex.def Info: Images/Lut 2.png  used on input line 31.
-(pdftex.def)             Requested size: 142.26378pt x 125.49165pt.
+<Images/Wave 3.png, id=4, 546.24075pt x 204.765pt>
+File: Images/Wave 3.png Graphic file (type png)
+<use Images/Wave 3.png>
+Package pdftex.def Info: Images/Wave 3.png  used on input line 31.
+(pdftex.def)             Requested size: 369.88582pt x 138.66031pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 31--33
+ [][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Images/Lut 2.png Graphic file (type png)
-<use Images/Lut 2.png>
-Package pdftex.def Info: Images/Lut 2.png  used on input line 37.
-(pdftex.def)             Requested size: 142.26378pt x 125.49165pt.
+<Images/Wave 4.png, id=5, 549.85425pt x 148.75575pt>
+File: Images/Wave 4.png Graphic file (type png)
+<use Images/Wave 4.png>
+Package pdftex.def Info: Images/Wave 4.png  used on input line 37.
+(pdftex.def)             Requested size: 369.88582pt x 100.06758pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 37--39
+ [][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: Images/Lut 2.png Graphic file (type png)
-<use Images/Lut 2.png>
-Package pdftex.def Info: Images/Lut 2.png  used on input line 43.
-(pdftex.def)             Requested size: 142.26378pt x 125.49165pt.
+<Images/Wave 5.png, id=6, 551.05875pt x 121.6545pt>
+File: Images/Wave 5.png Graphic file (type png)
+<use Images/Wave 5.png>
+Package pdftex.def Info: Images/Wave 5.png  used on input line 43.
+(pdftex.def)             Requested size: 369.88582pt x 81.6603pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 43--45
+ [][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
 
-{C:/Users/jonas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/Lut 2.png>] [2] [3]
-<Images/Wave 1.1.png, id=18, 880.4895pt x 208.3785pt>
-File: Images/Wave 1.1.png Graphic file (type png)
-<use Images/Wave 1.1.png>
-Package pdftex.def Info: Images/Wave 1.1.png  used on input line 54.
-(pdftex.def)             Requested size: 369.88582pt x 87.53745pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 54--56
- [][] 
- []
-
-<Images/Wave 2.1.png, id=19, 900.966pt x 221.02576pt>
-File: Images/Wave 2.1.png Graphic file (type png)
-<use Images/Wave 2.1.png>
-Package pdftex.def Info: Images/Wave 2.1.png  used on input line 60.
-(pdftex.def)             Requested size: 369.88582pt x 90.74255pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 60--62
- [][] 
- []
-
-<Images/Wave 3.1.png, id=20, 875.6715pt x 222.8325pt>
-File: Images/Wave 3.1.png Graphic file (type png)
-<use Images/Wave 3.1.png>
-Package pdftex.def Info: Images/Wave 3.1.png  used on input line 66.
-(pdftex.def)             Requested size: 369.88582pt x 94.12624pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 66--68
- [][] 
- []
-
-File: Images/Wave 3.1.png Graphic file (type png)
-<use Images/Wave 3.1.png>
-Package pdftex.def Info: Images/Wave 3.1.png  used on input line 72.
-(pdftex.def)             Requested size: 369.88582pt x 94.12624pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 72--74
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: Images/Wave 3.1.png Graphic file (type png)
-<use Images/Wave 3.1.png>
-Package pdftex.def Info: Images/Wave 3.1.png  used on input line 78.
-(pdftex.def)             Requested size: 369.88582pt x 94.12624pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 78--80
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4
-
- <./Images/Wave 1.1.png> <./Images/Wave 2.1.png> <./Images/Wave 3.1.png>] [5] (main.aux)
+{C:/Users/jonas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/Wave 1.png>] [2 <./Images/Wave 2.png> <./Images/Wave 3.png> <./Images/Wave 4.png>] [3 <./Images/Wave 5.png>] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1329 strings out of 475248
- 22643 string characters out of 5757813
+ 1337 strings out of 475248
+ 22801 string characters out of 5757813
  1921785 words of memory out of 5000000
- 22889 multiletter control sequences out of 15000+600000
+ 22897 multiletter control sequences out of 15000+600000
  561709 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,7n,65p,309b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (5 pages, 122555 bytes).
+Output written on main.pdf (3 pages, 127937 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
