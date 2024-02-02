@@ -2,7 +2,8 @@ library ieee;
 use ieee.std_logic_1164.all;
 entity tb is end;
 architecture arch_tb of tb is
-    component FaultyALU is port(
+    component FaultyALU is 
+      port(
         IA : in std_logic_vector( 3 downto 0);
         IB : in std_logic_vector( 3 downto 0);
         FaultLocation: in std_logic_vector (3 downto 0);
