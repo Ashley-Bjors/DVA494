@@ -1,6 +1,7 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
 "../../../../../library/ArithLogic.vhd" \
+"../../../../Step5.srcs/sources_1/new/DoubleFaultyALU.vhd" \
 "../../../../../library/FaultInjector.vhd" \
 "../../../../../library/FaultyALU.vhd" \
 "../../../../../library/Max4Bit2To1.vhd" \

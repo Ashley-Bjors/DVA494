@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1706615275" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/tb.dcp">
   <File Type="PA-TCL" Name="double_mux.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="double_mux_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="double_mux_reports.tcl"/>
   <File Type="RDS-RDS" Name="double_mux.vds"/>
-  <File Type="RDS-UTIL" Name="double_mux_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="double_mux_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="tb_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="tb_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="double_mux.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="double_mux_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="double_mux_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../Step3/Step3.srcs/sources_1/new/Multiplexer4x1.vhd">

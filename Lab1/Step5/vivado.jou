@@ -3,27 +3,43 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Jan 30 10:51:33 2024
-# Process ID: 19400
-# Current directory: D:/Skola/3/DVA494/Lab1/Step5
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16524 D:\Skola\3\DVA494\Lab1\Step5\Step5.xpr
-# Log file: D:/Skola/3/DVA494/Lab1/Step5/vivado.log
-# Journal file: D:/Skola/3/DVA494/Lab1/Step5\vivado.jou
-# Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
+# Start of session at: Fri Feb  2 07:30:56 2024
+# Process ID: 20020
+# Current directory: C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab1/Step5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10952 C:\Users\ellio\OneDrive\Skrivbord\Robotik.Year.3\inbygda system\DVA494\Lab1\Step5\Step5.xpr
+# Log file: C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab1/Step5/vivado.log
+# Journal file: C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab1/Step5\vivado.jou
+# Running On: DESKTOP-OV3A0NL, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 17037 MB
 #-----------------------------------------------------------
 start_gui
-open_project D:/Skola/3/DVA494/Lab1/Step5/Step5.xpr
+open_project {C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab1/Step5/Step5.xpr}
 update_compile_order -fileset sources_1
-launch_runs synth_1 -jobs 2
-wait_on_run synth_1
+launch_simulation
+source tb.tcl
 # Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
 set_property source_mgmt_mode None [current_project]
 set_property top double_mux [current_fileset]
 # Re-enabling previously disabled source management mode.
 set_property source_mgmt_mode All [current_project]
-reset_run synth_1
-launch_runs synth_1 -jobs 2
-wait_on_run synth_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source tb.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top double_mux [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+launch_simulation
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top_arch Arch_tb [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
 # Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
 set_property source_mgmt_mode None [current_project]
 set_property top tb [current_fileset]
@@ -31,29 +47,8 @@ set_property top_lib xil_defaultlib [current_fileset]
 set_property top_arch Arch_tb [current_fileset]
 # Re-enabling previously disabled source management mode.
 set_property source_mgmt_mode All [current_project]
-launch_simulation
-source tb.tcl
-close_sim
-launch_simulation
-source tb.tcl
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top tb [get_filesets sim_1]
-set_property top_arch tb_arch [get_filesets sim_1]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-close_sim
-launch_simulation
-source tb.tcl
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top_arch tb_arch [current_fileset]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode All [current_project]
-update_compile_order -fileset sources_1
+launch_simulation -mode post-synthesis -type functional
 close_sim
 launch_simulation
 source tb.tcl
 close_sim
-launch_simulation
-source tb.tcl
