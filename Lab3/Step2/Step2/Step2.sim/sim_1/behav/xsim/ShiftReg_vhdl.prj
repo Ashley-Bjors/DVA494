@@ -2,7 +2,6 @@
 vhdl xil_defaultlib  \
 "../../../../../../Library/DFF.vhd" \
 "../../../../Step2.srcs/sources_1/new/ShiftReg.vhd" \
-"../../../../Step2.srcs/sources_1/new/LFSR.vhd" \
 
 # Do not sort compile order
 nosort

@@ -24,7 +24,7 @@ use ieee.std_logic_1164.all;
 entity Reg is
     generic(n: natural);
     port(
-    d:in std_logic_vector (n-1 downto 0);
+    d:in std_logic;
     clk:in std_logic ;
     q: out std_logic_vector (n-1 downto 0)
     );
@@ -37,10 +37,22 @@ end entity;
         q: out std_logic
 );  
 end component;
+ signal val : std_logic_vector (n-1 downto 0) ;
 begin 
+
+process(clk)
+begin
+ val(0)<= d;
+ for i in 1 to n-1 loop
+    val(i) <= val(i-1);
+ end loop;
+    
+end process;
+
     props: for i in n - 1 downto 0 generate 
-        inst_i :flipflop port map(d(i),clk,q(i));
+          inst_i :flipflop port map(val(i),clk,q(i));
     end generate ;
+
 end architecture;
 
 
@@ -89,7 +101,7 @@ architecture arch_LFSR of LFSR is
 component Reg is 
   generic(n: natural);
     port(
-    d:in std_logic_vector (n-1 downto 0);
+    d:in std_logic;
     clk:in std_logic ;
     q: out std_logic_vector (n-1 downto 0)
     );
@@ -104,15 +116,54 @@ component Mux2To1 is
         out0    :out std_logic
     );
 end component ;
-signal temp0,d: std_logic;
+signal temp0,d_in: std_logic;
 begin
 
-d <= data_out(Registersize-2) xor data_out(Registersize-1);
+temp0 <= data_out(Registersize-2) xor data_out(Registersize-1);
 
-mux: Mux2To1 port map(Seed_in,temp0,Seed_en,d);
-inst_i : Reg generic map(Registersize,clk,Registersize,data_out);
+mux: Mux2To1 port map(Seed_in,temp0,Seed_en,d_in);
+inst_i : Reg generic map(Registersize) port map(d_in,CLK,data_out);
 
-end architecture ;
+end architecture;
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity tb_LFSR is end;
+architecture arch_tb_LFSR of tb_LFSR is 
+
+component LFSR is
+    generic (Registersize: natural);
+    port(
+        Seed_in: in std_logic;
+        Seed_en: in std_logic;
+        CLK: in std_logic;
+        data_out: inout std_logic_vector(Registersize-1 downto 0)
+    );
+end component;
+
+signal Seed_in,Seed_en : std_logic;
+signal CLK : std_logic := '0';
+signal data_out : std_logic_vector(4-1 downto 0); -- 4 bit
+
+begin 
+ test : LFSR generic map(4) port map(Seed_in,Seed_en,CLK,data_out);
+ 
+ process 
+ begin
+ --clk <= not clk;
+ --wait for 2ps;
+
+ Seed_in <= '1';
+ wait for 5ps;
+ 
+ Seed_in <= '0';
+ wait for 5ps;
+ 
+ end process;
+ 
+ 
+end architecture;
+
 
 --library ieee;
 --use ieee.std_logic_1164.all;

@@ -1,6 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab3/Library/DFF.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'DFF'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab3/Step2/Step2/Step2.srcs/sources_1/new/ShiftReg.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'ShiftReg'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab3/Step2/Step2/Step2.srcs/sources_1/new/LFSR.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'LFSR'
