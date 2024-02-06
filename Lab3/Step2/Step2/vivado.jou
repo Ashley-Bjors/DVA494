@@ -105,3 +105,55 @@ source tb_LFSR.tcl
 close_sim
 launch_simulation
 source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+close_project
+create_project Step1 D:/Skola/3/DVA494/projekt/Step1 -part xc7a35tcpg236-1
+file mkdir D:/Skola/3/DVA494/projekt/Step1/Step1.srcs/sources_1/new
+close [ open D:/Skola/3/DVA494/projekt/Step1/Step1.srcs/sources_1/new/Counter.vhd w ]
+add_files D:/Skola/3/DVA494/projekt/Step1/Step1.srcs/sources_1/new/Counter.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source counter.tcl
+close_sim
+launch_simulation
+source counter.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_counter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_counter [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+close_sim
