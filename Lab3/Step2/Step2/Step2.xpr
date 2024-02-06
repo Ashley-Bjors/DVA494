@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="65" Path="C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab3/Step2/Step2/Step2.xpr">
+<Project Product="Vivado" Version="7" Minor="65" Path="D:/Skola/3/DVA494/Lab3/Step2/Step2/Step2.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="3780f9c888094a879b602ebdd6150241"/>
@@ -104,13 +104,14 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/LFSR.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="LFSR"/>
+        <Option Name="TopModule" Val="ShiftReg"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
@@ -124,7 +125,7 @@
       <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="LFSR"/>
+        <Option Name="TopModule" Val="ShiftReg"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
