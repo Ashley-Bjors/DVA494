@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Feb  6 08:51:46 2024
-# Process ID: 16064
+# Start of session at: Tue Feb  6 12:14:32 2024
+# Process ID: 1116
 # Current directory: D:/Skola/3/DVA494/Lab3/Step2/Step2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent532 D:\Skola\3\DVA494\Lab3\Step2\Step2\Step2.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12664 D:\Skola\3\DVA494\Lab3\Step2\Step2\Step2.xpr
 # Log file: D:/Skola/3/DVA494/Lab3/Step2/Step2/vivado.log
 # Journal file: D:/Skola/3/DVA494/Lab3/Step2/Step2\vivado.jou
 # Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
@@ -14,4 +14,94 @@
 start_gui
 open_project D:/Skola/3/DVA494/Lab3/Step2/Step2/Step2.xpr
 update_compile_order -fileset sources_1
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
 update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl
+close_sim
+launch_simulation
+source tb_LFSR.tcl

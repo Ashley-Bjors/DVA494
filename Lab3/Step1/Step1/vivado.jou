@@ -14,3 +14,6 @@
 start_gui
 open_project D:/Skola/3/DVA494/Lab3/Step1/Step1/Step1.xpr
 update_compile_order -fileset sources_1
+launch_simulation
+source tb_DFF.tcl
+close_sim

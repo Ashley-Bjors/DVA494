@@ -1,7 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../../../Library/DFF.vhd" \
-"../../../../Step2.srcs/sources_1/new/ShiftReg.vhd" \
-
-# Do not sort compile order
-nosort
