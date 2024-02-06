@@ -3,8 +3,8 @@
   <File Type="PA-TCL" Name="Fault_Inject.tcl"/>
   <File Type="REPORTS-TCL" Name="Fault_Inject_reports.tcl"/>
   <File Type="RDS-RDS" Name="Fault_Inject.vds"/>
-  <File Type="RDS-UTIL" Name="Fault_Inject_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Fault_Inject_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="tb_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="tb_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Fault_Inject.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>

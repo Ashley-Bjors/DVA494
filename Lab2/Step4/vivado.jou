@@ -3,14 +3,22 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Jan 30 15:39:55 2024
-# Process ID: 12748
-# Current directory: D:/Skola/3/DVA494/Lab2/Step4
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9720 D:\Skola\3\DVA494\Lab2\Step4\Step4.xpr
-# Log file: D:/Skola/3/DVA494/Lab2/Step4/vivado.log
-# Journal file: D:/Skola/3/DVA494/Lab2/Step4\vivado.jou
-# Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
+# Start of session at: Tue Feb  6 14:25:28 2024
+# Process ID: 30676
+# Current directory: C:/Universitet/3. Reliable System/DVA494/Lab2/Step4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10968 C:\Universitet\3. Reliable System\DVA494\Lab2\Step4\Step4.xpr
+# Log file: C:/Universitet/3. Reliable System/DVA494/Lab2/Step4/vivado.log
+# Journal file: C:/Universitet/3. Reliable System/DVA494/Lab2/Step4\vivado.jou
+# Running On: XXSnipezXX, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14877 MB
 #-----------------------------------------------------------
 start_gui
-open_project D:/Skola/3/DVA494/Lab2/Step4/Step4.xpr
+open_project {C:/Universitet/3. Reliable System/DVA494/Lab2/Step4/Step4.xpr}
 update_compile_order -fileset sources_1
+close [ open {C:/Universitet/3. Reliable System/DVA494/Lab2/Lab2_Group5/Step4.vhd} w ]
+add_files {{C:/Universitet/3. Reliable System/DVA494/Lab2/Lab2_Group5/Step4.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb.tcl
+close_sim

@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Feb  1 10:30:44 2024
-# Process ID: 25440
+# Start of session at: Tue Feb  6 14:43:30 2024
+# Process ID: 28720
 # Current directory: C:/Universitet/3. Reliable System/DVA494/Lab2/Step3
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9752 C:\Universitet\3. Reliable System\DVA494\Lab2\Step3\Step3.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent39276 C:\Universitet\3. Reliable System\DVA494\Lab2\Step3\Step3.xpr
 # Log file: C:/Universitet/3. Reliable System/DVA494/Lab2/Step3/vivado.log
 # Journal file: C:/Universitet/3. Reliable System/DVA494/Lab2/Step3\vivado.jou
 # Running On: XXSnipezXX, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14877 MB
@@ -14,3 +14,6 @@
 start_gui
 open_project {C:/Universitet/3. Reliable System/DVA494/Lab2/Step3/Step3.xpr}
 update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+close_sim

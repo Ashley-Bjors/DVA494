@@ -3,6 +3,7 @@ vhdl xil_defaultlib  \
 "../../../../Step1.srcs/sources_1/new/Step1.vhd" \
 "../../../../../library/Max4Bit2To1.vhd" \
 "../../../../../library/Max4Bit4To1.vhd" \
+"../../../../../Lab2_Group5/Step1.vhd" \
 
 # Do not sort compile order
 nosort
