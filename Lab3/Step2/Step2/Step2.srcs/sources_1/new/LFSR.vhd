@@ -52,7 +52,7 @@ end;
 library ieee;
 use ieee.std_logic_1164.all;
 entity LFSR is
-    generic (Registersize: natural:=2);
+    generic (Registersize: natural:=8);
     port(
         Seed_in: in std_logic;
         Seed_en: in std_logic;
@@ -63,7 +63,7 @@ end;
 
 architecture Arch_LFSR of LFSR is
     component ShiftReg is
-        generic (NrOfBits: natural:=2);
+        generic (NrOfBits: natural:=8);
         port(
             CLK: in std_logic;
             Bit_Input: in std_logic;
@@ -100,7 +100,7 @@ entity tb_LFSR is end;
 architecture arch_tb_LFSR of tb_LFSR is 
 
 component LFSR is
-    generic (Registersize: natural);
+    generic (Registersize: natural :=8);
     port(
         Seed_in: in std_logic;
         Seed_en: in std_logic;
@@ -109,11 +109,14 @@ component LFSR is
     );
 end component;
 
+
+
+
 signal Seed_in,Seed_en,CLK : std_logic := '0';
-signal data_out : std_logic_vector(5 downto 0); -- 8 bit
+signal data_out : std_logic_vector(7 downto 0); -- 6 bit
 
 begin 
- inst_0 : LFSR generic map (6) port map(Seed_in,Seed_en,CLK,data_out);
+ inst_0 : LFSR generic map (8) port map(Seed_in,Seed_en,CLK,data_out);
 
  
   process is
@@ -128,7 +131,7 @@ begin
  wait for 2ps;
  
  Seed_in <= '1';
- wait for 2ps;
+ wait for 16ps; -- 8*2 = loading
 
  Seed_en <= '0';
  wait for 2ps;

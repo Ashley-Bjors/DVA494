@@ -13,7 +13,7 @@ Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling architecture arch_mux2to1 of entity xil_defaultlib.Mux2To1 [mux2to1_default]
 Compiling architecture arch_dff of entity xil_defaultlib.DFF [dff_default]
-Compiling architecture arch_shiftreg of entity xil_defaultlib.ShiftReg [\ShiftReg(nrofbits=6)\]
-Compiling architecture arch_lfsr of entity xil_defaultlib.LFSR [\LFSR(registersize=6)\]
+Compiling architecture arch_shiftreg of entity xil_defaultlib.ShiftReg [\ShiftReg(nrofbits=8)\]
+Compiling architecture arch_lfsr of entity xil_defaultlib.LFSR [lfsr_default]
 Compiling architecture arch_tb_lfsr of entity xil_defaultlib.tb_lfsr
 Built simulation snapshot tb_LFSR_behav
