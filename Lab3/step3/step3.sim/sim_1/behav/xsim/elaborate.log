@@ -1,0 +1,16 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/school/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_LFSR_and_Mux_behav xil_defaultlib.tb_LFSR_and_Mux -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-4940] 'lfsr_and_mux' remains a black box since it has no binding entity [C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab3/step3/step3.srcs/sources_1/new/step3.vhd:308]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture arch_tb_lfsr_and_mux of entity xil_defaultlib.tb_lfsr_and_mux
+Built simulation snapshot tb_LFSR_and_Mux_behav
