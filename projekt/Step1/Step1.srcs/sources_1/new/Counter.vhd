@@ -1,52 +1,56 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use ieee.numeric_std.all;
 
 entity counter is
     port(
     CLK,reset,en : in std_logic := '0';
-    counter_out: out std_logic_vector (3 downto 0)
+    counter_out: out integer 
     );
  end entity;
  
  architecture arh_counter of counter is 
  
-signal counter_up: std_logic_vector(3 downto 0) := "0000";
-
+ signal adder : integer := 0;
+ 
 begin
+
 -- up counter
-process(CLK)
-begin
- if (CLK'event and (CLK = '1')) then
-    if(reset='1') then
-         counter_up <= "0000";
-    else
-        counter_up <= counter_up + "1";
+ process(CLK) is
+  begin
+  if (CLK'event and (CLK = '0')) then
+     if(reset='1') then
+         adder <= 0;
+     elsif(en = '1') then
+         adder <= adder + 1;
+     end if;
     end if;
- end if;
-end process;
+  end process;
 
- counter_out <= counter_up;
+ counter_out <= adder;
 
-end architecture ;
+end arh_counter;
 
 --------------------------------- tb ----------------------
 library ieee;
 use ieee.std_logic_1164.all;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use ieee.numeric_std.all;
 
 entity tb_counter is end;
 architecture arch_tb_LFSR of tb_counter is 
+
 component counter is
     port (
     CLK,reset,en : in std_logic;
-    counter_out: out std_logic_vector (3 downto 0)
+    counter_out: out integer
     );
  end component;
  
  signal CLK,reset,en : std_logic := '0';
- signal counter_out : std_ulogic_vector(3 downto 0);
+ signal counter_out : integer;
+ 
  begin
+ count0 : counter port map(CLK,reset,en,counter_out);
  
   process is
   begin
@@ -56,8 +60,19 @@ component counter is
  
  process is
   begin
-  reset <= '1';
+  
+  en <= '1';
   wait for 50ps;
+  
+  reset <= '1';
+  wait for 1ps;
+  
+  en <= '0';
+  wait for 2ps;
+  
+  reset <= '0';
+  wait for 2ps;
+  
  end process;
  
  end architecture;

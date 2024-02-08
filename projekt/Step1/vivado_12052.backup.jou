@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Feb  6 14:20:19 2024
+# Process ID: 12052
+# Current directory: D:/Skola/3/DVA494/projekt/Step1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20000 D:\Skola\3\DVA494\projekt\Step1\Step1.xpr
+# Log file: D:/Skola/3/DVA494/projekt/Step1/vivado.log
+# Journal file: D:/Skola/3/DVA494/projekt/Step1\vivado.jou
+# Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Skola/3/DVA494/projekt/Step1/Step1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_counter.tcl
+close_sim
+launch_simulation
+source tb_counter.tcl
