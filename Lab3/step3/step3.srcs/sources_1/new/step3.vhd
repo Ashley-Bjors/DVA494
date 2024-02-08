@@ -292,7 +292,7 @@ use ieee.std_logic_1164.all;
 entity tb_LFSR_and_Mux is end;
 architecture arch_tb_LFSR_and_Mux of tb_LFSR_and_Mux is 
 
-component LFSR_and_Mux is
+component LSFR_and_Mux is
     port(
     Seed_in: in std_logic;
     Seed_en: in std_logic;
@@ -305,7 +305,7 @@ signal Seed_in,Seed_en,CLK : std_logic := '0';
 signal o0 : std_logic;
 
 begin 
- inst_0 : LFSR_and_Mux port map(Seed_in, Seed_en, o0, CLK);
+ inst_0 : LSFR_and_Mux port map(Seed_in, Seed_en, o0, CLK);
 
  
   process is
