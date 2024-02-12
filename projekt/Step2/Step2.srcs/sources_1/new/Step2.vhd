@@ -14,7 +14,7 @@ signal o:std_logic := '0';
 begin
     process(cmp_in1,cmp_in2)
     begin
-        if (cmp_in1 = cmp_in2) then
+        if (cmp_in1 /= cmp_in2) then
          o <= '1';
         else
         o <='0';
