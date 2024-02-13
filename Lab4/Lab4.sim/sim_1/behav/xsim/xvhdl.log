@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab4/Lab4.srcs/sources_1/new/Step1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slowClk'
+INFO: [VRFC 10-3107] analyzing entity 'DFF'
+INFO: [VRFC 10-3107] analyzing entity 'key_debouncer'
+INFO: [VRFC 10-3107] analyzing entity 'push_led'
+INFO: [VRFC 10-3107] analyzing entity 'wrapper_push_led'
+INFO: [VRFC 10-3107] analyzing entity 'tb_push_led'
