@@ -1,1 +1,0 @@
---incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_push_led_behav" "xil_defaultlib.tb_push_led" -log "elaborate.log" 
