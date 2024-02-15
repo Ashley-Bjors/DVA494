@@ -3,16 +3,16 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Feb 15 10:08:40 2024
-# Process ID: 19144
-# Current directory: D:/Skola/3/DVA494/Lab3/Step2/Step2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11244 D:\Skola\3\DVA494\Lab3\Step2\Step2\Step2.xpr
-# Log file: D:/Skola/3/DVA494/Lab3/Step2/Step2/vivado.log
-# Journal file: D:/Skola/3/DVA494/Lab3/Step2/Step2\vivado.jou
+# Start of session at: Thu Feb 15 10:29:04 2024
+# Process ID: 15548
+# Current directory: D:/Skola/3/DVA494/projekt/Step2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10432 D:\Skola\3\DVA494\projekt\Step2\Step2.xpr
+# Log file: D:/Skola/3/DVA494/projekt/Step2/vivado.log
+# Journal file: D:/Skola/3/DVA494/projekt/Step2\vivado.jou
 # Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
 #-----------------------------------------------------------
 start_gui
-open_project D:/Skola/3/DVA494/Lab3/Step2/Step2/Step2.xpr
+open_project D:/Skola/3/DVA494/projekt/Step2/Step2.xpr
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24c:part0:1.0 available at D:/Skola/program/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24c/1.0/board.xml as part xck24-ubva530-2lv-c specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:k24i:part0:1.0 available at D:/Skola/program/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k24i/1.0/board.xml as part xck24-ubva530-2lvi-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:k26c:part0:1.2 available at D:/Skola/program/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/k26c/1.2/board.xml as part xck26-sfvc784-2lv-c specified in board_part file is either invalid or not available
@@ -91,14 +91,14 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Skola/program/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Skola/program/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Skola/program/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [Project 1-313] Project file moved from 'C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab3/Step2/Step2' since last save.
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Skola/3/DVA494/Lab3/Step2/Step2/Step2.gen/sources_1'.
+INFO: [Project 1-313] Project file moved from 'C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/projekt/Step2' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Skola/3/DVA494/projekt/Step2/Step2.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Skola/program/Vivado/2023.2/data/ip'.
-open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 1386.145 ; gain = 304.629
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:14 . Memory (MB): peak = 1399.090 ; gain = 248.062
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Feb 15 10:28:56 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 15 10:29:37 2024...
