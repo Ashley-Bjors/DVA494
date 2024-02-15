@@ -54,10 +54,35 @@ begin
     result <= temp;
 end;
 
---Mulitplexer
+-------------------------------------- Mux 2 TO 1 ------------------------
 library ieee;
 use ieee.std_logic_1164.all;
-entity Mux4To1 is
+entity Mux2To1 is
+    port
+    (
+        i0      :in std_logic;
+        i1      :in std_logic;
+        s0      :in std_logic;
+        out0    :out std_logic
+    );
+end;
+architecture Arch_Mux2To1 of Mux2To1 is 
+    signal tempS : std_logic;
+    signal temp0 : std_logic;
+    signal temp1 : std_logic;
+begin
+   tempS <= not s0;
+   temp0 <= i0 and temps;
+   temp1 <= i1 and s0;
+   out0 <= temp0 or temp1;
+   
+end; 
+
+---------------------------------Mux 4 To 1 Inst -------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity Mux4To1Inst is
     port
     (
         i0      :in std_logic;
@@ -69,7 +94,45 @@ entity Mux4To1 is
         out0    :out std_logic
     );
 end;
-architecture Arch_Mux4To1 of Mux4To1 is 
+architecture Arch_Mux4To1Inst of Mux4To1Inst is 
+       component Mux2To1 is 
+        port
+        (
+           i0      :in std_logic;
+           i1      :in std_logic;
+           s0      :in std_logic;
+           out0    :out std_logic
+        );
+    end component;
+
+    signal temp0 : std_logic;
+    signal temp1 : std_logic;
+
+begin
+
+  mutex0 : Mux2To1 port map(i0,i1,s0,temp0);
+  mutex1 : Mux2To1 port map(i2,i3,s0,temp1);
+  mutex2 : Mux2To1 port map(temp0,temp1,s1,out0);
+end; 
+
+
+--------------------------- Mux 4 TO 1 Exp -------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity Mux4To1Exp is
+    port
+    (
+        i0      :in std_logic;
+        i1      :in std_logic;
+        i2      :in std_logic;
+        i3      :in std_logic;
+        s0      :in std_logic;
+        s1      :in std_logic;
+        out0    :out std_logic
+    );
+end;
+architecture Arch_Mux4To1Exp of Mux4To1Exp is 
     component Gate_And_3 is
     port
     (
@@ -111,6 +174,50 @@ begin
     AndGate3 : Gate_And_3 port map(i3,s0,s1,temp3);
     OrGate : Gate_Or_4 port map(temp0,temp1,temp2,temp3,out0);
 end; 
+
+
+---------------------------------Double Mux-------------------
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity double_mux is
+    port
+    (
+        i0      :in std_logic;
+        i1      :in std_logic;
+        i2      :in std_logic;
+        i3      :in std_logic;
+        s0      :in std_logic;
+        s1      :in std_logic;
+        out0    :out std_logic;
+        out1    :OUT std_logic 
+    );
+end;
+
+architecture Arch_double_mux of double_mux is
+    component Mux4To1Inst is
+     port
+    (
+        i0,i1,i2,i3     :in std_logic;
+        s0,s1     :in std_logic;
+        out0  :out std_logic
+    );
+    end component;
+    component Mux4To1Exp is
+     port
+    (
+        i0,i1,i2,i3     :in std_logic;
+        s0,s1     :in std_logic;
+        out0  :out std_logic
+    );
+    end component;
+
+ begin
+  
+  mux0 : Mux4To1Exp port map(i0,i1,i2,i0,s0,s0,out0);
+  mux1 : Mux4To1Inst port map(i0,i1,i2,i0,s0,s0,out1);
+  
+end;
 
 
 --------------------------------------Shift Register----------------
@@ -171,30 +278,7 @@ begin
     end process;
 end Arch_DFF;
 
--------------------------------------- multiplexer ------------------------
---Mulitplexer
-library ieee;
-use ieee.std_logic_1164.all;
-entity Mux2To1 is
-    port
-    (
-        i0      :in std_logic;
-        i1      :in std_logic;
-        s0      :in std_logic;
-        out0    :out std_logic
-    );
-end;
-architecture Arch_Mux2To1 of Mux2To1 is 
-    signal tempS : std_logic;
-    signal temp0 : std_logic;
-    signal temp1 : std_logic;
-begin
-   tempS <= not s0;
-   temp0 <= i0 and temps;
-   temp1 <= i1 and s0;
-   out0 <= temp0 or temp1;
-   
-end; 
+
 
 ------------------------------------------- LFSR -------------------------------------------
 
@@ -250,7 +334,7 @@ entity LSFR_and_Mux is
     port(
     Seed_in: in std_logic;
     Seed_en: in std_logic;
-    o0: out std_logic;
+    Out0: out std_logic_vector (1 downto 0);
     CLK: in std_logic
     );
 end;
@@ -266,7 +350,7 @@ architecture  Arch_LFSR_and_Mux of LSFR_and_Mux is
         Q_Vector: inout std_logic_vector(Registersize-1 downto 0)
         ); 
     end component;
-    component Mux4To1 is
+    component double_mux is
         port
     (
         i0      :in std_logic;
@@ -275,13 +359,14 @@ architecture  Arch_LFSR_and_Mux of LSFR_and_Mux is
         i3      :in std_logic;
         s0      :in std_logic;
         s1      :in std_logic;
-        out0    :out std_logic
+        out0    :out std_logic;
+        out1    :OUT std_logic 
     );
     end component;
     signal FSR_Out: std_logic_vector (5 downto 0);
 begin
     LFSR1: LFSR generic map(6) port map(Seed_in, Seed_en, CLK, FSR_Out);
-    Mux: Mux4To1 port map(FSR_Out(0), FSR_Out(1), FSR_Out(2), FSR_Out(3), FSR_Out(4), FSR_Out(5), o0);
+    Mux: double_mux port map(FSR_Out(0), FSR_Out(1), FSR_Out(2), FSR_Out(3), FSR_Out(4), FSR_Out(5), Out0(0), Out0(1));
 end Arch_LFSR_and_Mux;
 
 
@@ -296,16 +381,16 @@ component LSFR_and_Mux is
     port(
     Seed_in: in std_logic;
     Seed_en: in std_logic;
-    o0: out std_logic;
+    Out0: out std_logic_vector(1 downto 0);
     CLK: in std_logic
     );
 end component;
 
 signal Seed_in,Seed_en,CLK : std_logic := '0';
-signal o0 : std_logic;
+signal Out0 : std_logic_vector (1 downto 0);
 
 begin 
- inst_0 : LSFR_and_Mux port map(Seed_in, Seed_en, o0, CLK);
+ inst_0 : LSFR_and_Mux port map(Seed_in, Seed_en, Out0, CLK);
 
  
   process is

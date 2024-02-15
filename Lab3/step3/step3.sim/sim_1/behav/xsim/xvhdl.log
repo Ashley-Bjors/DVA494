@@ -1,11 +1,13 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab3/step3/step3.srcs/sources_1/new/step3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/Lab3/step3/step3.srcs/sources_1/new/step3.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'Gate_And_3'
 INFO: [VRFC 10-3107] analyzing entity 'Gate_Or_4'
 INFO: [VRFC 10-3107] analyzing entity 'Gate_Not'
-INFO: [VRFC 10-3107] analyzing entity 'Mux4To1'
+INFO: [VRFC 10-3107] analyzing entity 'Mux2To1'
+INFO: [VRFC 10-3107] analyzing entity 'Mux4To1Inst'
+INFO: [VRFC 10-3107] analyzing entity 'Mux4To1Exp'
+INFO: [VRFC 10-3107] analyzing entity 'double_mux'
 INFO: [VRFC 10-3107] analyzing entity 'ShiftReg'
 INFO: [VRFC 10-3107] analyzing entity 'DFF'
-INFO: [VRFC 10-3107] analyzing entity 'Mux2To1'
 INFO: [VRFC 10-3107] analyzing entity 'LFSR'
 INFO: [VRFC 10-3107] analyzing entity 'LSFR_and_Mux'
 INFO: [VRFC 10-3107] analyzing entity 'tb_LFSR_and_Mux'
