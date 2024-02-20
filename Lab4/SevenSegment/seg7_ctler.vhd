@@ -24,19 +24,19 @@ end seg7_ctler;
 
 architecture Behavioral of seg7_ctler is
 
-signal s_switch16_debounced : std_logic_vector(15 downto 0):=(others=>'0');
+--signal s_switch16_debounced : std_logic_vector(15 downto 0):=(others=>'0');
  
 signal s_bcd_value : std_logic_vector(3 downto 0):=(others=>'0');
 signal s_seg7_led_scanner : unsigned(1 downto 0):=(others=>'0');
 signal s_refresh_counter : unsigned(31 downto 0):=(others=>'0');
 
-component key_debouncer is
-port(
-     key_in: in std_logic;
-     clk: in std_logic;
-     key_debounced: out std_logic
-);
-end component;
+--component key_debouncer is
+--port(
+--     key_in: in std_logic;
+--     clk: in std_logic;
+--     key_debounced: out std_logic
+--);
+--end component;
 
 component bcd_to_7seg_decoder is
   Port (bcd_i : in std_logic_vector(3 downto 0);
@@ -47,14 +47,14 @@ end component;
 begin
 
 -- 16-bit debouncer for generate instantiation
-gen_debounce_16bit : for i in 0 to 15 generate
-    i_key_debouncer : key_debouncer 
-        port map (
-        key_in => switch16_i(i),
-        clk => clk,
-        key_debounced => s_switch16_debounced(i)
-        );
-end generate gen_debounce_16bit;
+--gen_debounce_16bit : for i in 0 to 15 generate
+--    i_key_debouncer : key_debouncer 
+--        port map (
+--        key_in => switch16_i(i),
+--        clk => clk,
+--        key_debounced => s_switch16_debounced(i)
+--        );
+--end generate gen_debounce_16bit;
 
 -- process to refresh the 7-SEG LEDs (scan over 4-digit 7-seg)
 process(clk, rst_n)
@@ -78,22 +78,22 @@ begin
     when "00" =>
         common_anode_o <= "0111"; 
         -- LED0 activated (rest off)
-        s_bcd_value <= s_switch16_debounced(3 downto 0);
+        s_bcd_value <= switch16_i(3 downto 0);
         -- sw0 
     when "01" =>
         common_anode_o <= "1011"; 
          -- LED1 activated (rest off)
-        s_bcd_value <= s_switch16_debounced(7 downto 4);
+        s_bcd_value <= switch16_i(7 downto 4);
         -- sw0 
     when "10" =>
         common_anode_o <= "1101"; 
         -- LED2 activated (rest off)
-        s_bcd_value <= s_switch16_debounced(11 downto 8);
+        s_bcd_value <= switch16_i(11 downto 8);
         -- sw0 
     when "11" =>
         common_anode_o <= "1110"; 
         -- LED3 activated (rest off)
-        s_bcd_value <= s_switch16_debounced(15 downto 12);
+        s_bcd_value <= switch16_i(15 downto 12);
         -- sw0 
     when others =>    
     end case;
