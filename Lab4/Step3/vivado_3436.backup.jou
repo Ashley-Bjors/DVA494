@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Feb 20 08:32:51 2024
+# Process ID: 3436
+# Current directory: D:/Skola/3/DVA494/Lab4/Step3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14784 D:\Skola\3\DVA494\Lab4\Step3\Step3.xpr
+# Log file: D:/Skola/3/DVA494/Lab4/Step3/vivado.log
+# Journal file: D:/Skola/3/DVA494/Lab4/Step3\vivado.jou
+# Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Skola/3/DVA494/Lab4/Step3/Step3.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_timer.tcl
+close_sim
+launch_simulation
+source tb_timer.tcl
+close_sim
+close_project
+create_project step4 D:/Skola/3/DVA494/Lab4/step4 -part xc7a35tcpg236-1
+file mkdir D:/Skola/3/DVA494/Lab4/step4/step4.srcs/sources_1/new
+close [ open D:/Skola/3/DVA494/Lab4/step4/step4.srcs/sources_1/new/step4.vhd w ]
+add_files D:/Skola/3/DVA494/Lab4/step4/step4.srcs/sources_1/new/step4.vhd
+update_compile_order -fileset sources_1
+file mkdir D:/Skola/3/DVA494/Lab4/step4/step4.srcs/constrs_1
+file mkdir D:/Skola/3/DVA494/Lab4/step4/step4.srcs/constrs_1/new
+close [ open D:/Skola/3/DVA494/Lab4/step4/step4.srcs/constrs_1/new/basys3.xdc w ]
+add_files -fileset constrs_1 D:/Skola/3/DVA494/Lab4/step4/step4.srcs/constrs_1/new/basys3.xdc
+update_compile_order -fileset sources_1
+add_files -norecurse {D:/Skola/3/DVA494/Lab4/SevenSegment/bcd_to_7seg_decoder.vhd D:/Skola/3/DVA494/Lab4/SevenSegment/seg7_ctler.vhd D:/Skola/3/DVA494/Lab4/SevenSegment/clock_divider.vhd D:/Skola/3/DVA494/Lab4/SevenSegment/dff_slow.vhd D:/Skola/3/DVA494/Lab4/SevenSegment/key_debouncer.vhd D:/Skola/3/DVA494/Lab4/SevenSegment/wrapper_7seg.vhd}
+update_compile_order -fileset sources_1
