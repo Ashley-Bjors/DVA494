@@ -144,13 +144,13 @@ entity wrapper_timer_7seg is
     port(
        clk : in std_logic;
        seg : out std_logic_vector(6 downto 0);
-       an : out std_logic_vector(3 downto 0);
-       debugger : out std_logic_vector(15 downto 0)
+       an : out std_logic_vector(3 downto 0)
     );
 end wrapper_timer_7seg;
 
 architecture arch_wrapper_timer_7seg of wrapper_timer_7seg is
 
+-- step 3
 component timer is
     generic(sec_delay : integer := 1000000); -- amount of tick/sec
     port(
@@ -160,6 +160,7 @@ component timer is
     );
 end component;
 
+-- copy past from zip file
 component seg7_ctler is
 -- 1000,000 generates 10ms refresh rates with 100Mhz (10 ns ) clock freq
   generic ( G_REFRESH_SCALE_FACTOR : integer:= 1000000); 
@@ -171,24 +172,27 @@ component seg7_ctler is
   );
 end component;
 
-signal mm_ss_temp : std_logic_vector (15 downto 0) := (others => '0');
-signal rst_n : std_logic := '1';
-signal s_counter : unsigned(20 downto 0):=(others=>'0'); 
+signal mm_ss_temp : std_logic_vector (15 downto 0) := (others => '0'); -- 4st 4 bit to 1 16 bit
+signal rst_n : std_logic := '1'; -- reset value
+signal s_counter : unsigned(20 downto 0):=(others=>'0'); -- reset counter
 
 begin
-inst_timer : timer generic map(20) port map(clk,rst_n,'1',mm_ss_temp(3 downto 0),mm_ss_temp(7 downto 4),mm_ss_temp(11 downto 8),mm_ss_temp(15 downto 12));    
+-- generic map(x) = amount of tick inbetween increment, en_i always 1 => '1' 
+inst_timer : timer generic map(20) port map(clk,rst_n,'1',mm_ss_temp(3 downto 0),mm_ss_temp(7 downto 4),mm_ss_temp(11 downto 8),mm_ss_temp(15 downto 12));  
+-- generic map(x) = amount of tick inbetween increment
 inst_seg7 : seg7_ctler generic map(2) port map(clk,rst_n,mm_ss_temp,an,seg);
-debugger <= mm_ss_temp;
---process(clk)
---begin
---    if (s_counter = to_unsigned(C_RST_SCALE_FACTOR, 21)) then -- counts up to 10 ms, then assers the reset
---        s_counter <= (others =>'0'); 
---        rst_n <= '1';
---    elsif rising_edge (clk) then
---        rst_n <= '0';
---        s_counter <= s_counter + 1;
---    end if;
---end process;
+
+-- reset generator
+process(clk)
+begin
+    if (s_counter = to_unsigned(C_RST_SCALE_FACTOR, 21)) then -- counts up to 10 ms, then assers the reset
+        s_counter <= (others =>'0'); 
+        rst_n <= '0'; -- active low
+    elsif rising_edge (clk) then -- increment
+        rst_n <= '1'; -- active low
+        s_counter <= s_counter + 1;
+    end if;
+end process;
 
 
 end architecture;
@@ -205,18 +209,16 @@ component wrapper_timer_7seg is
     port(
        clk : in std_logic;
        seg : out std_logic_vector(6 downto 0);
-       an : out std_logic_vector(3 downto 0);
-       debugger : out std_logic_vector(15 downto 0)
+       an : out std_logic_vector(3 downto 0)
     );
 end component;
 
 signal clk : std_logic := '0';
 signal seg : std_logic_vector(6 downto 0);
 signal an : std_logic_vector(3 downto 0);
-signal  debugger : std_logic_vector(15 downto 0);
 
 begin
-inst_wrapper : wrapper_timer_7seg generic map(2000) port map (clk,seg,an,debugger);
+inst_wrapper : wrapper_timer_7seg generic map(5000) port map (clk,seg,an); -- reset after 5k ticks
     
 
   clk <= not clk after 1ps;
