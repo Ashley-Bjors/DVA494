@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/noben/OneDrive - Mälardalens högskola/Documents/GitHub/DVA494/projekt/Step3/Step3.srcs/sources_1/new/Inequality Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Comparator'
+INFO: [VRFC 10-3107] analyzing entity 'counter'
+INFO: [VRFC 10-3107] analyzing entity 'InequalityCounter'
+INFO: [VRFC 10-3107] analyzing entity 'tb'
