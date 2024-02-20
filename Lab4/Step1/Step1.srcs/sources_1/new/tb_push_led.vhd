@@ -5,7 +5,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity tb_push_led is end;
 
 architecture arch_tb_push_led of tb_push_led is
-  component push_led
+  component push_led is
       Port ( 
           clk, rst_n : in std_logic;
           push_cmd_i : in std_logic;
@@ -17,18 +17,22 @@ architecture arch_tb_push_led of tb_push_led is
   signal push_cmd_i: std_logic := '0';
   signal led_o: std_logic_vector(15 downto 0);
   
-begin   
+begin
+    btn_test : push_led port map(clk,rst_n,push_cmd_i,led_o);
+   
     process
         begin
-        clk <= not clk after 10ps;
+        clk <= not clk ;
+        wait for 10ps;
     end process;
     
     process
         begin
-        wait for 200ps;
+        rst_n <= '1';
         push_cmd_i <= '1';
         wait for 200ps;
         push_cmd_i <= '0';
+        wait for 200ps;
  
     end process;
 end architecture;

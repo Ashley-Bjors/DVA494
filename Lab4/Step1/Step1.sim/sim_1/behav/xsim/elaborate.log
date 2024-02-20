@@ -12,5 +12,9 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_divider [\clock_divider(g_division=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.dff_slow [dff_slow_default]
+Compiling architecture behavioral of entity xil_defaultlib.key_debouncer [key_debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.push_led [push_led_default]
 Compiling architecture arch_tb_push_led of entity xil_defaultlib.tb_push_led
 Built simulation snapshot tb_push_led_behav

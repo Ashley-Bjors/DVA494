@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Feb 20 15:15:18 2024
+# Process ID: 12448
+# Current directory: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/Step1.runs/synth_1
+# Command line: vivado.exe -log wrapper_push_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source wrapper_push_led.tcl
+# Log file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/Step1.runs/synth_1/wrapper_push_led.vds
+# Journal file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/Step1.runs/synth_1\vivado.jou
+# Running On: XXSnipezXX, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14877 MB
+#-----------------------------------------------------------
+source wrapper_push_led.tcl -notrace

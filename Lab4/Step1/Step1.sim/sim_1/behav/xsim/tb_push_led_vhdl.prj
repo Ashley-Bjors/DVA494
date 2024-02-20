@@ -1,5 +1,9 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
+"../../../../../Push_Led/Push_Led/clock_divider.vhd" \
+"../../../../../Push_Led/Push_Led/dff_slow.vhd" \
+"../../../../../Push_Led/Push_Led/key_debouncer.vhd" \
+"../../../../../Push_Led/Push_Led/push_led.vhd" \
 "../../../../Step1.srcs/sources_1/new/tb_push_led.vhd" \
 
 # Do not sort compile order
