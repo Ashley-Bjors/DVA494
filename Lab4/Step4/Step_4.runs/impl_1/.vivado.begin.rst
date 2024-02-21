@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="30608" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="29024" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="12244" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="24344" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="14360" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="5864" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="23840" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="11168" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="19700" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="jonas" Host="XXSNIPEZXX" Pid="1148" HostCore="12" HostMemory="014877257728">
+    </Process>
+</ProcessHandle>
