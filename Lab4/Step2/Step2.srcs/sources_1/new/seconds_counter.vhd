@@ -35,10 +35,10 @@ begin
             end if;
       end if;
     end if;
-     seconds_o <= std_logic_vector(sec);
 end process;
 
 
+ seconds_o <= std_logic_vector(sec);
 
 end arch_seconds_counter;
 

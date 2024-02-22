@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Feb 22 08:17:02 2024
+# Process ID: 34128
+# Current directory: C:/Universitet/3. Reliable System/DVA494/Lab4/Step4/Step_4.runs/impl_1
+# Command line: vivado.exe -log wrapper_7seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source wrapper_7seg.tcl -notrace
+# Log file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step4/Step_4.runs/impl_1/wrapper_7seg.vdi
+# Journal file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step4/Step_4.runs/impl_1\vivado.jou
+# Running On: XXSnipezXX, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14877 MB
+#-----------------------------------------------------------
+source wrapper_7seg.tcl -notrace

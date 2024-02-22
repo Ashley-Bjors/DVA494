@@ -38,8 +38,8 @@ end component;
 -- constant G_REFRESH_SCALE_FACTOR : integer :=1000000; -- this value results to 10ms with 10ns period of clk signal
 
  -- we set counter scales to 4 to be able to simulate and see the waveforms
- constant C_RST_SCALE_FACTOR : integer :=4;   
- constant G_REFRESH_SCALE_FACTOR : integer :=4;    
+ constant C_RST_SCALE_FACTOR : integer :=1000000;   
+ constant G_REFRESH_SCALE_FACTOR : integer :=1000000;    
 
 
  signal rst_n : std_logic;

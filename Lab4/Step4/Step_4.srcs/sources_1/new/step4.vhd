@@ -121,14 +121,14 @@ end component;
 signal clk_sec_tens,clk_min_ones,clk_min_tens : std_logic := '0';
 
 begin
- sec_tens_divider : clock_divider generic map(9) port map(clk,clk_sec_tens); -- 9th tick inbetween each tick (9sec / tenth sec)
- min_ones_divider : clock_divider generic map(59) port map(clk,clk_min_ones); -- 59th tick inbetween each tick (59sec / min)
- min_tens_divider : clock_divider generic map(599) port map(clk,clk_min_tens); -- 599th tick inbetween each tick (599 sec/ tent min)
+-- sec_tens_divider : clock_divider generic map(9) port map(clk,clk_sec_tens); -- 9th tick inbetween each tick (9sec / tenth sec)
+-- min_ones_divider : clock_divider generic map(59) port map(clk,clk_min_ones); -- 59th tick inbetween each tick (59sec / min)
+-- min_tens_divider : clock_divider generic map(599) port map(clk,clk_min_tens); -- 599th tick inbetween each tick (599 sec/ tent min)
  
   sec_ones : seconds_counter generic map(sec_delay,9) port map( clk,rst_n,en_i,bcd_sec_ones_o);
-  sec_tens : seconds_counter generic map(sec_delay,5) port map( clk_sec_tens,rst_n,en_i,bcd_sec_tens_o);
-  min_ones : seconds_counter generic map(sec_delay,9) port map( clk_min_ones,rst_n,en_i,bcd_mins_ones_o);
-  min_tens : seconds_counter generic map(sec_delay,5) port map( clk_min_tens,rst_n,en_i,bcd_mins_tens_o);
+  sec_tens : seconds_counter generic map(sec_delay*9,5) port map( clk_sec_tens,rst_n,en_i,bcd_sec_tens_o);
+  min_ones : seconds_counter generic map(sec_delay*59,9) port map( clk_min_ones,rst_n,en_i,bcd_mins_ones_o);
+  min_tens : seconds_counter generic map(sec_delay*599,5) port map( clk_min_tens,rst_n,en_i,bcd_mins_tens_o);
 
 end architecture;
 
@@ -178,9 +178,9 @@ signal s_counter : unsigned(20 downto 0):=(others=>'0'); -- reset counter
 
 begin
 -- generic map(x) = amount of tick inbetween increment, en_i always 1 => '1' 
-inst_timer : timer generic map(20) port map(clk,rst_n,'1',mm_ss_temp(3 downto 0),mm_ss_temp(7 downto 4),mm_ss_temp(11 downto 8),mm_ss_temp(15 downto 12));  
+inst_timer : timer generic map(1000000) port map(clk,rst_n,'1',mm_ss_temp(3 downto 0),mm_ss_temp(7 downto 4),mm_ss_temp(11 downto 8),mm_ss_temp(15 downto 12));  
 -- generic map(x) = amount of tick inbetween increment
-inst_seg7 : seg7_ctler generic map(2) port map(clk,rst_n,mm_ss_temp,an,seg);
+inst_seg7 : seg7_ctler generic map(10000) port map(clk,'1',mm_ss_temp,an,seg);
 
 -- reset generator
 process(clk)
@@ -199,28 +199,28 @@ end architecture;
 
 ------------------------------------------ tb ------------------------------
 
-library ieee;
-use ieee.std_logic_1164.all;
-entity tb_wrapper_timer_7seg is end;
-architecture arch_tb_wrapper_timer_7seg of tb_wrapper_timer_7seg is 
+--library ieee;
+--use ieee.std_logic_1164.all;
+--entity tb_wrapper_timer_7seg is end;
+--architecture arch_tb_wrapper_timer_7seg of tb_wrapper_timer_7seg is 
 
-component wrapper_timer_7seg is
-    generic(C_RST_SCALE_FACTOR : integer:= 1000000);
-    port(
-       clk : in std_logic;
-       seg : out std_logic_vector(6 downto 0);
-       an : out std_logic_vector(3 downto 0)
-    );
-end component;
+--component wrapper_timer_7seg is
+--    generic(C_RST_SCALE_FACTOR : integer:= 1000000);
+--    port(
+--       clk : in std_logic;
+--       seg : out std_logic_vector(6 downto 0);
+--       an : out std_logic_vector(3 downto 0)
+--    );
+--end component;
 
-signal clk : std_logic := '0';
-signal seg : std_logic_vector(6 downto 0);
-signal an : std_logic_vector(3 downto 0);
+--signal clk : std_logic := '0';
+--signal seg : std_logic_vector(6 downto 0);
+--signal an : std_logic_vector(3 downto 0);
 
-begin
-inst_wrapper : wrapper_timer_7seg generic map(5000) port map (clk,seg,an); -- reset after 5k ticks
+--begin
+--inst_wrapper : wrapper_timer_7seg generic map(1000000) port map (clk,seg,an); -- reset after 5k ticks
     
 
-  clk <= not clk after 1ps;
+--  clk <= not clk after 1ps;
 
-end arch_tb_wrapper_timer_7seg;
+--end arch_tb_wrapper_timer_7seg;
