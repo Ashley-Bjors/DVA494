@@ -1038,7 +1038,3 @@ source tb_seconds_counter.tcl
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_seconds_counter_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2657.789 ; gain = 0.000
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-exit
-INFO: [Common 17-206] Exiting Vivado at Sun Feb 18 11:34:48 2024...

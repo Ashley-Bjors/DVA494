@@ -58,4 +58,3 @@ source tb_seconds_counter.tcl
 close_sim
 launch_simulation
 source tb_seconds_counter.tcl
-close_sim
