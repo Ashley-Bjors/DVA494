@@ -71,6 +71,8 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 1
+set_param xicom.use_bs_reader 1
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -86,6 +88,7 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
+  {C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/bcd_to_7seg_decoder.vhd}
   {C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/seg7_ctler.vhd}
   {C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/wrapper_timer_7seg.vhd}
 }
@@ -102,6 +105,8 @@ read_xdc {{C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.
 set_property used_in_implementation false [get_files {{C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/Basys3_Master.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental {C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/utils_1/imports/synth_1/wrapper_timer_7seg.dcp}
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

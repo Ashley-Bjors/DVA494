@@ -19,10 +19,11 @@ entity clock_counter is
     begin
     process(clk,rst_n)
     begin
-        carry_sig <= '0';
+    carry_sig <= '0';
         if(rst_n = '0') then -- reset if reset is activ low
             sec <= (others => '0'); 
             counter <= (others => '0');
+            
             
         elsif(rising_edge(clk)) then -- in clk is activ high
             counter <= counter + 1; -- increment counter
@@ -68,9 +69,9 @@ entity timer is
         signal carry_one_s,carry_ten_s,carry_one_m,carry_ten_m : std_logic :='0';
     begin
         sec_ones:clock_counter generic map(sec_delay,9) port map(clk,'1','1',bcd_sec_ones_o,carry_one_s);
-        sec_tens:clock_counter generic map(sec_delay,5) port map(carry_one_s,'1','1',bcd_sec_tens_o,carry_ten_s);
-        min_ones:clock_counter generic map(sec_delay,9) port map(carry_ten_s,'1','1',bcd_mins_ones_o,carry_one_m);
-        min_tens:clock_counter generic map(sec_delay,5) port map(carry_one_m,'1','1',bcd_mins_tens_o,carry_ten_m);
+        sec_tens:clock_counter generic map(0,5) port map(carry_one_s,'1','1',bcd_sec_tens_o,carry_ten_s);
+        min_ones:clock_counter generic map(0,9) port map(carry_ten_s,'1','1',bcd_mins_ones_o,carry_one_m);
+        min_tens:clock_counter generic map(0,5) port map(carry_one_m,'1','1',bcd_mins_tens_o,carry_ten_m);
 end architecture;
 
 library IEEE;
@@ -78,7 +79,7 @@ library IEEE;
     use IEEE.numeric_std.all;
  
 entity wrapper_timer_7seg is
-    generic(C_RST_SCALE_FACTOR : integer:= 200);
+    generic(C_RST_SCALE_FACTOR : integer:= 100000000); --This is the actual value you should change to speed up the clock :)
     port(
        clk : in std_logic;
        seg : out std_logic_vector(6 downto 0);
@@ -93,8 +94,7 @@ entity wrapper_timer_7seg is
     generic(sec_delay : integer := 1000000); -- amount of tick/sec
     port(
         clk,rst_n,en_i: in std_logic;                           
-        bcd_sec_ones_o,bcd_sec_tens_o,
-        bcd_mins_ones_o,bcd_mins_tens_o: out  std_logic_vector(3 downto 0)
+        bcd_sec_ones_o,bcd_sec_tens_o,bcd_mins_ones_o,bcd_mins_tens_o: out  std_logic_vector(3 downto 0)
     );
     end component;
 
@@ -116,7 +116,7 @@ entity wrapper_timer_7seg is
 
     begin
     -- generic map(x) = amount of tick inbetween increment, en_i always 1 => '1' 
-    inst_timer : timer generic map(1000000) port map(clk,rst_n,'1',mm_ss_temp(3 downto 0),mm_ss_temp(7 downto 4),mm_ss_temp(11 downto 8),mm_ss_temp(15 downto 12));  
+    inst_timer : timer generic map(C_RST_SCALE_FACTOR) port map(clk,rst_n,'1',mm_ss_temp(15 downto 12),mm_ss_temp(11 downto 8),mm_ss_temp(7 downto 4),mm_ss_temp(3 downto 0));  
     -- generic map(x) = amount of tick inbetween increment
     inst_seg7 : seg7_ctler generic map(10000) port map(clk,'1',mm_ss_temp,an,seg);
 
@@ -131,6 +131,30 @@ entity wrapper_timer_7seg is
             s_counter <= s_counter + 1;
         end if;
     end process;
-
-
 end architecture;
+
+--library ieee;
+--use ieee.std_logic_1164.all;
+--entity tb_wrapper_timer_7seg is end;
+--architecture arch_tb_wrapper_timer_7seg of tb_wrapper_timer_7seg is 
+
+--component wrapper_timer_7seg is
+--    generic(C_RST_SCALE_FACTOR : integer:= 1000000);
+--    port(
+--       clk : in std_logic;
+--       seg : out std_logic_vector(6 downto 0);
+--       an : out std_logic_vector(3 downto 0)
+--    );
+--end component;
+
+--signal clk : std_logic := '0';
+--signal seg : std_logic_vector(6 downto 0);
+--signal an : std_logic_vector(3 downto 0);
+
+--begin
+--inst_wrapper : wrapper_timer_7seg generic map(1000000) port map (clk,seg,an);  --reset after 5k ticks
+    
+
+--  clk <= not clk after 1ps;
+
+--end arch_tb_wrapper_timer_7seg;
