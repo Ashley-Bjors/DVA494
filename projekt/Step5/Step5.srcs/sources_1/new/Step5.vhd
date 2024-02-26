@@ -585,9 +585,10 @@ architecture arch_Faulty_ALU_Tester of Faulty_ALU_Tester is
         );
     end component;
     
-    signal Seed_in              : std_logic;
-    signal Seed_en              : std_logic;
-    signal clk                  : std_logic;
+    signal Seed_in              : std_logic := '1';
+    signal Seed_en              : std_logic := '1';
+    signal clk                  : std_logic := '0';
+    signal counter              : integer := 0;
     signal LFSR_Out             : std_logic_vector (10 downto 0);
     signal Fault_Location       : std_logic_vector (3 downto 0);
     signal ALU0_Out, ALU1_Out   : std_logic_vector (3 downto 0);
@@ -598,5 +599,44 @@ architecture arch_Faulty_ALU_Tester of Faulty_ALU_Tester is
     Faulty_ALU0         : FaultyALU port map(LFSR_Out(10 downto 7), LFSR_Out(6 downto 3), Fault_Location, LFSR_Out(2 downto 0), ALU0_Out);
     Faulty_ALU1         : FaultyALU port map(LFSR_Out(10 downto 7), LFSR_Out(6 downto 3), "1111", LFSR_Out(2 downto 0), ALU1_Out);
     Inequality_Counter0 : InequalityCounter generic map (4) port map (ALU0_Out, ALU1_Out, clk, '0', faults);
+    
+    process is
+    begin
+    if  (counter > 11) then
+        Seed_en <= '0';
+    elsif (clk = '1') then
+        counter <= counter + 1;
+    end if;
+    clk <= not clk;
+    wait for 1ps;
+    end process;
 
 end architecture ;
+
+---------------------------------TB------------------------------------
+
+library ieee;            
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity tb is end;
+
+architecture arch_tb of tb is
+
+    component Faulty_ALU_Tester is
+        generic (fault_probability : real);
+        port (
+            faults  : out integer
+    );
+    end component;
+    
+    signal out0 : integer := 0;
+    
+    
+    begin
+        tester : Faulty_ALU_Tester generic map(0.2) port map(out0);
+        
+    
+end;
+    

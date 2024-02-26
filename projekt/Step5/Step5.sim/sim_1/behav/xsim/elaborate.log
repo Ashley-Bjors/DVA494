@@ -1,0 +1,34 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_behav xil_defaultlib.tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling architecture arch_mux2to1 of entity xil_defaultlib.Mux2To1 [mux2to1_default]
+Compiling architecture arch_dff of entity xil_defaultlib.DFF [dff_default]
+Compiling architecture arch_shiftreg of entity xil_defaultlib.ShiftReg [\ShiftReg(nrofbits=11)\]
+Compiling architecture arch_lfsr of entity xil_defaultlib.LFSR [\LFSR(registersize=11)\]
+Compiling architecture arch of entity xil_defaultlib.FLG [\FLG(fault_probability=0.2,seed=...]
+Compiling architecture arch_fault_inject of entity xil_defaultlib.Fault_Inject [fault_inject_default]
+Compiling architecture arch_arithlogic of entity xil_defaultlib.ArithLogic [arithlogic_default]
+Compiling architecture arch_max4bit2to1 of entity xil_defaultlib.Max4Bit2To1 [max4bit2to1_default]
+Compiling architecture arch_max4bit4to1 of entity xil_defaultlib.Max4Bit4To1 [max4bit4to1_default]
+Compiling architecture arch_max4bit8to1 of entity xil_defaultlib.Max4Bit8To1 [max4bit8to1_default]
+Compiling architecture archfaultyalu of entity xil_defaultlib.FaultyALU [faultyalu_default]
+Compiling architecture arch_comparator of entity xil_defaultlib.Comparator [comparator_default]
+Compiling architecture arh_counter of entity xil_defaultlib.counter [counter_default]
+Compiling architecture arch_inequalitycounter of entity xil_defaultlib.InequalityCounter [inequalitycounter_default]
+Compiling architecture arch_faulty_alu_tester of entity xil_defaultlib.Faulty_ALU_Tester [\Faulty_ALU_Tester(fault_probabi...]
+Compiling architecture arch_tb of entity xil_defaultlib.tb
+Built simulation snapshot tb_behav
