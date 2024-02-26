@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Feb 26 10:14:43 2024
+# Process ID: 9816
+# Current directory: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35636 C:\Universitet\3. Reliable System\DVA494\Lab4\Step1\Step1.xpr
+# Log file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/vivado.log
+# Journal file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1\vivado.jou
+# Running On: XXSnipezXX, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14877 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/Step1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_push_led.tcl
+close_sim

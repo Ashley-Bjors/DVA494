@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Sun Feb 18 11:09:17 2024
-# Process ID: 25036
+# Start of session at: Tue Feb 20 19:11:43 2024
+# Process ID: 4172
 # Current directory: C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab4/Step3
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24884 C:\Users\ellio\OneDrive\Skrivbord\Robotik.Year.3\inbygda system\DVA494\Lab4\Step3\Step3.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15144 C:\Users\ellio\OneDrive\Skrivbord\Robotik.Year.3\inbygda system\DVA494\Lab4\Step3\Step3.xpr
 # Log file: C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab4/Step3/vivado.log
 # Journal file: C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab4/Step3\vivado.jou
 # Running On: DESKTOP-OV3A0NL, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 17037 MB
@@ -16,7 +16,6 @@ open_project {C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DV
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab4/Step3'
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/school/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
-INFO: [Project 1-313] Project file moved from 'D:/Skola/3/DVA494/Lab4/Step3' since last save.
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/school/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/school/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/school/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
@@ -73,13 +72,10 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 avail
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/school/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/school/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
 INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab4/Step3/Step3.gen/sources_1'.
-WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab4/Step3/Step3.ip_user_files'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/school/Vivado/2023.2/data/ip'.
-open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1494.043 ; gain = 329.312
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1523.488 ; gain = 288.262
 update_compile_order -fileset sources_1
-exit
-INFO: [Common 17-206] Exiting Vivado at Sun Feb 18 11:10:14 2024...

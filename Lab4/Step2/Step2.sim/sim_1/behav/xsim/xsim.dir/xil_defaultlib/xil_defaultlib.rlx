@@ -2,4 +2,8 @@
 2020.2
 Oct 13 2023
 20:47:58
-C:/Users/ellio/OneDrive/Skrivbord/Robotik.Year.3/inbygda system/DVA494/Lab4/Step2/Step2.srcs/sources_1/new/seconds_counter.vhd,1708252392,vhdl,,,,seconds_counter;tb_seconds_counter,,,,,,,,
+C:/Universitet/3. Reliable System/DVA494/Lab4/SevenSegment/bcd_to_7seg_decoder.vhd,1708424077,vhdl,,,,bcd_to_7seg_decoder,,,,,,,,
+C:/Universitet/3. Reliable System/DVA494/Lab4/SevenSegment/seg7_ctler.vhd,1708511500,vhdl,,,,seg7_ctler,,,,,,,,
+C:/Universitet/3. Reliable System/DVA494/Lab4/Step2/Step2.srcs/sim_1/new/testbench.vhd,1708952280,vhdl,,,,tb_seconds_counter,,,,,,,,
+C:/Universitet/3. Reliable System/DVA494/Lab4/Step2/Step2.srcs/sources_1/new/Wrapper_second_counter.vhd,1708951749,vhdl,,,,wrapper_push_led,,,,,,,,
+C:/Universitet/3. Reliable System/DVA494/Lab4/Step2/Step2.srcs/sources_1/new/seconds_counter.vhd,1708952339,vhdl,,,,seconds_counter,,,,,,,,
