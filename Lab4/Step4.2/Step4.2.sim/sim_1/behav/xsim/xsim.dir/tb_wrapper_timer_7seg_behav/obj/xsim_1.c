@@ -62,6 +62,9 @@ IKI_DLLESPEC extern void execute_29(char*, char *);
 IKI_DLLESPEC extern void execute_31(char*, char *);
 IKI_DLLESPEC extern void execute_32(char*, char *);
 IKI_DLLESPEC extern void execute_33(char*, char *);
+IKI_DLLESPEC extern void execute_35(char*, char *);
+IKI_DLLESPEC extern void execute_36(char*, char *);
+IKI_DLLESPEC extern void execute_37(char*, char *);
 IKI_DLLESPEC extern void execute_43(char*, char *);
 IKI_DLLESPEC extern void execute_44(char*, char *);
 IKI_DLLESPEC extern void execute_46(char*, char *);
@@ -70,12 +73,12 @@ IKI_DLLESPEC extern void vhdl_transfunc_eventcallback(char*, char*, unsigned, un
 IKI_DLLESPEC extern void transaction_8(char*, char*, unsigned, unsigned, unsigned);
 IKI_DLLESPEC extern void transaction_9(char*, char*, unsigned, unsigned, unsigned);
 IKI_DLLESPEC extern void transaction_10(char*, char*, unsigned, unsigned, unsigned);
-funcp funcTab[16] = {(funcp)execute_48, (funcp)execute_47, (funcp)execute_27, (funcp)execute_28, (funcp)execute_29, (funcp)execute_31, (funcp)execute_32, (funcp)execute_33, (funcp)execute_43, (funcp)execute_44, (funcp)execute_46, (funcp)transaction_0, (funcp)vhdl_transfunc_eventcallback, (funcp)transaction_8, (funcp)transaction_9, (funcp)transaction_10};
-const int NumRelocateId= 16;
+funcp funcTab[19] = {(funcp)execute_48, (funcp)execute_47, (funcp)execute_27, (funcp)execute_28, (funcp)execute_29, (funcp)execute_31, (funcp)execute_32, (funcp)execute_33, (funcp)execute_35, (funcp)execute_36, (funcp)execute_37, (funcp)execute_43, (funcp)execute_44, (funcp)execute_46, (funcp)transaction_0, (funcp)vhdl_transfunc_eventcallback, (funcp)transaction_8, (funcp)transaction_9, (funcp)transaction_10};
+const int NumRelocateId= 19;
 
 void relocate(char *dp)
 {
-	iki_relocate(dp, "xsim.dir/tb_wrapper_timer_7seg_behav/xsim.reloc",  (void **)funcTab, 16);
+	iki_relocate(dp, "xsim.dir/tb_wrapper_timer_7seg_behav/xsim.reloc",  (void **)funcTab, 19);
 	iki_vhdl_file_variable_register(dp + 10552);
 	iki_vhdl_file_variable_register(dp + 10608);
 

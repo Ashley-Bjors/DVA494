@@ -1,7 +1,7 @@
 Vivado Simulator v2023.2
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_wrapper_timer_7seg_behav xil_defaultlib.tb_wrapper_timer_7seg -log elaborate.log 
+Running: C:/Universitet/Vivaldo/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_wrapper_timer_7seg_behav xil_defaultlib.tb_wrapper_timer_7seg -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -12,9 +12,10 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
-Compiling architecture arch_clock_counter of entity xil_defaultlib.clock_counter [clock_counter_default]
-Compiling architecture arch_clock_counter of entity xil_defaultlib.clock_counter [\clock_counter(resetval=5)\]
-Compiling architecture arch_timer of entity xil_defaultlib.timer [timer_default]
+Compiling architecture arch_clock_counter of entity xil_defaultlib.clock_counter [\clock_counter(scalar=1)\]
+Compiling architecture arch_clock_counter of entity xil_defaultlib.clock_counter [\clock_counter(scalar=0,resetval...]
+Compiling architecture arch_clock_counter of entity xil_defaultlib.clock_counter [\clock_counter(scalar=0)\]
+Compiling architecture arch_timer of entity xil_defaultlib.timer [\timer(sec_delay=1)\]
 Compiling architecture behavioral of entity xil_defaultlib.bcd_to_7seg_decoder [bcd_to_7seg_decoder_default]
 Compiling architecture behavioral of entity xil_defaultlib.seg7_ctler [\seg7_ctler(g_refresh_scale_fact...]
 Compiling architecture arch_wrapper_timer_7seg of entity xil_defaultlib.wrapper_timer_7seg [\wrapper_timer_7seg(c_rst_scale_...]

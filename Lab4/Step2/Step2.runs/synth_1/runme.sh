@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log wrapper_push_led.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source wrapper_push_led.tcl
+EAStep vivado -log seconds_counter.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source seconds_counter.tcl

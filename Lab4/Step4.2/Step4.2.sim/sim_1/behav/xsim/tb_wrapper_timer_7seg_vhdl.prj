@@ -1,8 +1,7 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../Step4.2.srcs/sources_1/new/bcd_to_7seg_decoder.vhd" \
 "../../../../Step4.2.srcs/sources_1/new/seg7_ctler.vhd" \
-"../../../../Step4.2.srcs/sources_1/new/wrapper_timer_7seg.vhd" \
+"../../../../Step4.2.srcs/sources_1/new/Step4.vhd" \
 
 # Do not sort compile order
 nosort

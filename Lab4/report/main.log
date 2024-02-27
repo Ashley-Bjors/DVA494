@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.30)  26 FEB 2024 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.30)  27 FEB 2024 13:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -87,82 +87,109 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
-<images/sim_step1.png, id=1, 550.4565pt x 118.041pt>
-File: images/sim_step1.png Graphic file (type png)
-<use images/sim_step1.png>
-Package pdftex.def Info: images/sim_step1.png  used on input line 12.
-(pdftex.def)             Requested size: 369.88582pt x 79.3212pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 12--14
- [][] 
- []
-
-<images/sim_step2.png, id=3, 400.49625pt x 131.2905pt>
-File: images/sim_step2.png Graphic file (type png)
-<use images/sim_step2.png>
-Package pdftex.def Info: images/sim_step2.png  used on input line 18.
-(pdftex.def)             Requested size: 369.88582pt x 121.26349pt.
-<images/sim_step2.2.png, id=4, 351.714pt x 122.25674pt>
-File: images/sim_step2.2.png Graphic file (type png)
-<use images/sim_step2.2.png>
-Package pdftex.def Info: images/sim_step2.2.png  used on input line 20.
-(pdftex.def)             Requested size: 369.88582pt x 128.58229pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 18--22
- [][] 
- []
-
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 18--22
- [] 
- []
-
-<images/sim_step3.png, id=5, 606.46574pt x 152.36925pt>
-File: images/sim_step3.png Graphic file (type png)
-<use images/sim_step3.png>
-Package pdftex.def Info: images/sim_step3.png  used on input line 26.
-(pdftex.def)             Requested size: 369.88582pt x 92.93347pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 26--28
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/sim_step4.png, id=6, 539.01375pt x 210.18526pt>
-File: images/sim_step4.png Graphic file (type png)
-<use images/sim_step4.png>
-Package pdftex.def Info: images/sim_step4.png  used on input line 32.
-(pdftex.def)             Requested size: 369.88582pt x 144.23581pt.
-
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 32--34
- [][] 
- []
+<images/Lut1.png, id=1, 242.1045pt x 116.23425pt>
+File: images/Lut1.png Graphic file (type png)
+<use images/Lut1.png>
+Package pdftex.def Info: images/Lut1.png  used on input line 13.
+(pdftex.def)             Requested size: 142.26378pt x 68.30269pt.
+<images/Lut2.png, id=3, 240.9pt x 115.632pt>
+File: images/Lut2.png Graphic file (type png)
+<use images/Lut2.png>
+Package pdftex.def Info: images/Lut2.png  used on input line 18.
+(pdftex.def)             Requested size: 142.26378pt x 68.28757pt.
+<images/Lut3.png, id=4, 243.309pt x 115.632pt>
+File: images/Lut3.png Graphic file (type png)
+<use images/Lut3.png>
+Package pdftex.def Info: images/Lut3.png  used on input line 24.
+(pdftex.def)             Requested size: 142.26378pt x 67.61356pt.
+<images/Lut4.png, id=5, 248.127pt x 122.25674pt>
+File: images/Lut4.png Graphic file (type png)
+<use images/Lut4.png>
+Package pdftex.def Info: images/Lut4.png  used on input line 29.
+(pdftex.def)             Requested size: 142.26378pt x 70.0956pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1
 
-{C:/Users/jonas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/sim_step1.png> <./images/sim_step2.png> <./images/sim_step2.2.png>] [2 <./images/sim_step3.png> <./images/sim_step4.png>] (main.aux)
+{C:/Users/jonas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/Lut1.png> <./images/Lut2.png> <./images/Lut3.png>] [2 <./images/Lut4.png>]
+<images/sim_step1.png, id=21, 550.4565pt x 118.041pt>
+File: images/sim_step1.png Graphic file (type png)
+<use images/sim_step1.png>
+Package pdftex.def Info: images/sim_step1.png  used on input line 39.
+(pdftex.def)             Requested size: 369.88582pt x 79.3212pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 39--41
+ [][] 
+ []
+
+<images/sim_step2.png, id=22, 400.49625pt x 131.2905pt>
+File: images/sim_step2.png Graphic file (type png)
+<use images/sim_step2.png>
+Package pdftex.def Info: images/sim_step2.png  used on input line 45.
+(pdftex.def)             Requested size: 369.88582pt x 121.26349pt.
+<images/sim_step2.2.png, id=23, 351.714pt x 122.25674pt>
+File: images/sim_step2.2.png Graphic file (type png)
+<use images/sim_step2.2.png>
+Package pdftex.def Info: images/sim_step2.2.png  used on input line 47.
+(pdftex.def)             Requested size: 369.88582pt x 128.58229pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 45--49
+ [][] 
+ []
+
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 45--49
+ [] 
+ []
+
+<images/sim_step3.png, id=24, 606.46574pt x 152.36925pt>
+File: images/sim_step3.png Graphic file (type png)
+<use images/sim_step3.png>
+Package pdftex.def Info: images/sim_step3.png  used on input line 53.
+(pdftex.def)             Requested size: 369.88582pt x 92.93347pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 53--55
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/sim_step4.png, id=25, 460.119pt x 136.1085pt>
+File: images/sim_step4.png Graphic file (type png)
+<use images/sim_step4.png>
+Package pdftex.def Info: images/sim_step4.png  used on input line 59.
+(pdftex.def)             Requested size: 369.88582pt x 109.42068pt.
+
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 59--61
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3
+
+ <./images/sim_step1.png> <./images/sim_step2.png> <./images/sim_step2.2.png>] [4 <./images/sim_step3.png> <./images/sim_step4.png>] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1334 strings out of 475248
- 22898 string characters out of 5757813
+ 1369 strings out of 475248
+ 23665 string characters out of 5757813
  1920785 words of memory out of 5000000
- 22895 multiletter control sequences out of 15000+600000
- 561104 words of font info for 46 fonts, out of 8000000 for 9000
+ 22929 multiletter control sequences out of 15000+600000
+ 561709 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,236b,228s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (2 pages, 85591 bytes).
+ 57i,7n,65p,291b,228s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on main.pdf (4 pages, 113232 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

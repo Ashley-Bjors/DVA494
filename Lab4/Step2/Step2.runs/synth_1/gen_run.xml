@@ -1,59 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1708598608" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/wrapper_push_led.dcp">
-  <File Type="PA-TCL" Name="wrapper_push_led.tcl"/>
-  <File Type="REPORTS-TCL" Name="wrapper_push_led_reports.tcl"/>
-  <File Type="RDS-RDS" Name="wrapper_push_led.vds"/>
-  <File Type="RDS-UTIL" Name="wrapper_push_led_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="wrapper_push_led_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="wrapper_push_led.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1709036300" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/wrapper_push_led.dcp">
+  <File Type="PA-TCL" Name="seconds_counter.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="seconds_counter_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="seconds_counter_reports.tcl"/>
+  <File Type="RDS-RDS" Name="seconds_counter.vds"/>
+  <File Type="RDS-UTIL" Name="seconds_counter_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="seconds_counter_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="seconds_counter.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="seconds_counter_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="seconds_counter_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../SevenSegment/bcd_to_7seg_decoder.vhd">
+    <File Path="$PSRCDIR/sources_1/new/Step2.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/seconds_counter.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../SevenSegment/seg7_ctler.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/Wrapper_second_counter.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../SevenSegment/clock_divider.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../SevenSegment/dff_slow.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../SevenSegment/wrapper_7seg.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../SevenSegment/key_debouncer.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -62,8 +26,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="wrapper_push_led"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="seconds_counter"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">

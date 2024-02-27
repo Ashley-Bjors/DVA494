@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Jan 30 10:51:19 2024
+# Process ID: 12872
+# Current directory: D:/Skola/3/DVA494/Lab1/Step1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9904 D:\Skola\3\DVA494\Lab1\Step1\Step1.xpr
+# Log file: D:/Skola/3/DVA494/Lab1/Step1/vivado.log
+# Journal file: D:/Skola/3/DVA494/Lab1/Step1\vivado.jou
+# Running On: DESKTOP-HP2G262, OS: Windows, CPU Frequency: 2808 MHz, CPU Physical cores: 4, Host memory: 17034 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Skola/3/DVA494/Lab1/Step1/Step1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+launch_simulation
+open_wave_config D:/Skola/3/DVA494/Lab1/Step1/tb_behav.wcfg
+source tb.tcl
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top hello_and [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+close_sim
+launch_simulation
+open_wave_config D:/Skola/3/DVA494/Lab1/Step1/tb_behav.wcfg
+source tb.tcl

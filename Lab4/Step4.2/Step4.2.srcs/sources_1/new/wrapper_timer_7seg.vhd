@@ -133,28 +133,29 @@ entity wrapper_timer_7seg is
     end process;
 end architecture;
 
---library ieee;
---use ieee.std_logic_1164.all;
---entity tb_wrapper_timer_7seg is end;
---architecture arch_tb_wrapper_timer_7seg of tb_wrapper_timer_7seg is 
+-------------------Testbench-----------------------
 
---component wrapper_timer_7seg is
---    generic(C_RST_SCALE_FACTOR : integer:= 1000000);
---    port(
---       clk : in std_logic;
---       seg : out std_logic_vector(6 downto 0);
---       an : out std_logic_vector(3 downto 0)
---    );
---end component;
+library ieee;
+use ieee.std_logic_1164.all;
+entity tb_wrapper_timer_7seg is end;
+architecture arch_tb_wrapper_timer_7seg of tb_wrapper_timer_7seg is 
 
---signal clk : std_logic := '0';
---signal seg : std_logic_vector(6 downto 0);
---signal an : std_logic_vector(3 downto 0);
+component wrapper_timer_7seg is
+    generic(C_RST_SCALE_FACTOR : integer:= 1000000);
+    port(
+       clk : in std_logic;
+       seg : out std_logic_vector(6 downto 0);
+       an : out std_logic_vector(3 downto 0)
+    );
+end component;
 
---begin
---inst_wrapper : wrapper_timer_7seg generic map(1000000) port map (clk,seg,an);  --reset after 5k ticks
+signal clk : std_logic := '0';
+signal seg : std_logic_vector(6 downto 0);
+signal an : std_logic_vector(3 downto 0);
+
+begin
+inst_wrapper : wrapper_timer_7seg generic map(1) port map (clk,seg,an);  --reset after 5k ticks
     
-
---  clk <= not clk after 1ps;
-
---end arch_tb_wrapper_timer_7seg;
+clk <= not clk after 1 ps;
+ 
+end arch_tb_wrapper_timer_7seg;

@@ -2,9 +2,5 @@
 2020.2
 Oct 13 2023
 20:47:58
-C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/bcd_to_7seg_decoder.vhd,1707986987,vhdl,,,,bcd_to_7seg_decoder,,,,,,,,
-C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/clock_divider.vhd,1707986987,vhdl,,,,clock_divider,,,,,,,,
-C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/dff_slow.vhd,1707986987,vhdl,,,,dff_slow,,,,,,,,
-C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/key_debouncer.vhd,1707986987,vhdl,,,,key_debouncer,,,,,,,,
-C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/seg7_ctler.vhd,1708603452,vhdl,,,,seg7_ctler,,,,,,,,
-C:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/wrapper_timer_7seg.vhd,1708609311,vhdl,,,,clock_counter;tb_wrapper_timer_7seg;timer;wrapper_timer_7seg,,,,,,,,
+C:/Universitet/3. Reliable System/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/Step4.vhd,1709035253,vhdl,,,,bcd_to_7seg_decoder;clock_counter;tb_wrapper_timer_7seg;timer;wrapper_timer_7seg,,,,,,,,
+C:/Universitet/3. Reliable System/DVA494/Lab4/Step4.2/Step4.2.srcs/sources_1/new/seg7_ctler.vhd,1708606246,vhdl,,,,seg7_ctler,,,,,,,,

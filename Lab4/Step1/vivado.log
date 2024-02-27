@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon Feb 26 13:10:57 2024
-# Process ID: 36632
+# Start of session at: Tue Feb 27 13:21:30 2024
+# Process ID: 23036
 # Current directory: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24152 C:\Universitet\3. Reliable System\DVA494\Lab4\Step1\Step1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18732 C:\Universitet\3. Reliable System\DVA494\Lab4\Step1\Step1.xpr
 # Log file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/vivado.log
 # Journal file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1\vivado.jou
 # Running On: XXSnipezXX, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14877 MB
@@ -97,7 +97,22 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Universitet/Vivaldo/Vivado/2023.2/data/ip'.
-open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 1476.547 ; gain = 252.141
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 1494.801 ; gain = 289.012
 update_compile_order -fileset sources_1
+set_property top push_led [current_fileset]
+set_property top_lib xil_defaultlib [current_fileset]
+set_property top_arch Behavioral [current_fileset]
+set_property top_file {C:/Universitet/3. Reliable System/DVA494/Lab4/Push_Led/Push_Led/push_led.vhd} [current_fileset]
+set_property top_arch Behavioral_push_led [current_fileset]
+set_property top_file {} [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/Step1.srcs/utils_1/imports/synth_1/wrapper_push_led.dcp with file C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/Step1.runs/synth_1/wrapper_push_led.dcp
+launch_runs synth_1 -jobs 2
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'dff_slow(Behavioral)' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 14 of file C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/Step1.srcs/sources_1/new/Step1.vhd
+Duplicate found in file C:/Universitet/3. Reliable System/DVA494/Lab4/Push_Led/Push_Led/dff_slow.vhd
+[Tue Feb 27 13:22:40 2024] Launched synth_1...
+Run output will be captured here: C:/Universitet/3. Reliable System/DVA494/Lab4/Step1/Step1.runs/synth_1/runme.log
 exit
-INFO: [Common 17-206] Exiting Vivado at Mon Feb 26 13:30:08 2024...
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 13:23:48 2024...

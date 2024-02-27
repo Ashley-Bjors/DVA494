@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1708438514">
-  <File Type="PA-TCL" Name="wrapper_push_led.tcl"/>
-  <File Type="REPORTS-TCL" Name="wrapper_push_led_reports.tcl"/>
-  <File Type="RDS-RDS" Name="wrapper_push_led.vds"/>
-  <File Type="RDS-UTIL" Name="wrapper_push_led_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="wrapper_push_led_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="wrapper_push_led.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1709036559" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/wrapper_push_led.dcp">
+  <File Type="PA-TCL" Name="push_led.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="push_led_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="push_led_reports.tcl"/>
+  <File Type="RDS-RDS" Name="push_led.vds"/>
+  <File Type="RDS-UTIL" Name="push_led_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="push_led_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="push_led.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="push_led_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="push_led_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../Push_Led/Push_Led/clock_divider.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../Push_Led/Push_Led/dff_slow.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -26,14 +23,29 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/Step1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../Push_Led/Push_Led/push_led.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Push_Led/Push_Led/dff_slow.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../Push_Led/Push_Led/wrapper_push_led.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -41,13 +53,14 @@
     <File Path="$PSRCDIR/sources_1/new/tb_push_led.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="wrapper_push_led"/>
+      <Option Name="TopModule" Val="push_led"/>
+      <Option Name="TopLib" Val="xil_defaultlib"/>
+      <Option Name="TopArchitecture" Val="Behavioral_push_led"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -64,6 +77,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/wrapper_push_led.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>

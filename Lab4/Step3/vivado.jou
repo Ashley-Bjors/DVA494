@@ -3,10 +3,10 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Mon Feb 26 10:22:02 2024
-# Process ID: 6704
+# Start of session at: Tue Feb 27 13:13:41 2024
+# Process ID: 29600
 # Current directory: C:/Universitet/3. Reliable System/DVA494/Lab4/Step3
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24120 C:\Universitet\3. Reliable System\DVA494\Lab4\Step3\Step3.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30660 C:\Universitet\3. Reliable System\DVA494\Lab4\Step3\Step3.xpr
 # Log file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step3/vivado.log
 # Journal file: C:/Universitet/3. Reliable System/DVA494/Lab4/Step3\vivado.jou
 # Running On: XXSnipezXX, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 12, Host memory: 14877 MB
@@ -14,6 +14,10 @@
 start_gui
 open_project {C:/Universitet/3. Reliable System/DVA494/Lab4/Step3/Step3.xpr}
 update_compile_order -fileset sources_1
-launch_simulation
-source tb_timer.tcl
-close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top timer [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
