@@ -15,22 +15,17 @@ signal equal : std_logic_vector(n-1 downto 0) := (others => '0');
 
 begin
 
-process (tmr_in1,tmr_in2,tmr_in3)
 
+process(tmr_in1,tmr_in2,tmr_in3) is
 begin
-    if(tmr_in1 = tmr_in2) then
-    equal <= tmr_in1;
-    elsif(tmr_in1 = tmr_in3) then
-     equal <= tmr_in1;
-    elsif(tmr_in2 = tmr_in3) then
-     equal <= tmr_in2;
+    if(unsigned(tmr_in3) = unsigned(tmr_in2)) then
+    equal <= tmr_in2;
     else
-     equal <= tmr_in1;
+    equal <= tmr_in1;
     end if;
-
-tmr_out <= equal;
+   
 end process;
-
+tmr_out <= equal;
 end arch_TMR;
 
 -------------------------------------- tb ---------------------------------
@@ -58,16 +53,16 @@ process
 begin
 
 in1 <= "001";
-in2 <= "010";
+in2 <= "001";
 in3 <= "100";
 wait for 1ps;
 
-in1 <= "010";
+in1 <= "100";
 in2 <= "100";
 in3 <= "001";
 wait for 1ps;
 
-in1 <= "100";
+in1 <= "010";
 in2 <= "100";
 in3 <= "010";
 wait for 1ps;
