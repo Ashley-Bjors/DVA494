@@ -1,49 +1,49 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.29)  29 FEB 2024 09:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"e:/Skolprogram/Vivaldo Projekt/DVA494-Lab1/projekt/report/main.tex"
-(e:/Skolprogram/Vivaldo Projekt/DVA494-Lab1/projekt/report/main.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
-(C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+**"c:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/projekt/report/main.tex"
+(c:/Users/Ashley Bjrs/AppData/Roaming/Xilinx/Vivado/DVA494/projekt/report/main.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
+(C:\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
+\c@part=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+) (C:\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+ (C:\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count193
+) (C:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
 \l__pdf_internal_box=\box51
 ) (main.aux)
 \openout1 = `main.aux'.
@@ -62,23 +62,23 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
- (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
+\scratchcounter=\count195
 \scratchdimen=\dimen143
 \scratchbox=\box52
-\nofMPsegments=\count195
-\nofMParguments=\count196
+\nofMPsegments=\count196
+\nofMParguments=\count197
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count197
+\MPscratchCnt=\count198
 \MPscratchDim=\dimen144
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
 \everyMPtoPDFconversion=\toks19
-) (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+) (C:\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\Jonas\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+ (C:\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -87,69 +87,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
-<images/Step 5 & 7.png, id=1, 602.25pt x 372.39125pt>
+ [1
+
+{C:/Users/Ashley Björs/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+<images/Step 5 & 7.png, id=8, 602.25pt x 372.39125pt>
 File: images/Step 5 & 7.png Graphic file (type png)
 <use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 15.
+Package pdftex.def Info: images/Step 5 & 7.png  used on input line 18.
 (pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
 File: images/Step 5 & 7.png Graphic file (type png)
 <use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 20.
+Package pdftex.def Info: images/Step 5 & 7.png  used on input line 23.
 (pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
 File: images/Step 5 & 7.png Graphic file (type png)
 <use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 25.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/Step 5 & 7.png Graphic file (type png)
-<use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 30.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/Step 5 & 7.png Graphic file (type png)
-<use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 35.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/Step 5 & 7.png Graphic file (type png)
-<use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 40.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: images/Step 5 & 7.png Graphic file (type png)
-<use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 45.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1
-
-{C:/Users/Jonas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/Step 5 & 7.png>] [2] [3]
-File: images/Step 5 & 7.png Graphic file (type png)
-<use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 54.
+Package pdftex.def Info: images/Step 5 & 7.png  used on input line 28.
 (pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
 File: images/Step 5 & 7.png Graphic file (type png)
 <use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 59.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
-File: images/Step 5 & 7.png Graphic file (type png)
-<use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 64.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
-File: images/Step 5 & 7.png Graphic file (type png)
-<use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 69.
+Package pdftex.def Info: images/Step 5 & 7.png  used on input line 33.
 (pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
 
 
@@ -157,56 +113,52 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/Step 5 & 7.png Graphic file (type png)
 <use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 74.
+Package pdftex.def Info: images/Step 5 & 7.png  used on input line 38.
 (pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/Step 5 & 7.png Graphic file (type png)
 <use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 79.
+Package pdftex.def Info: images/Step 5 & 7.png  used on input line 43.
 (pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: images/Step 5 & 7.png Graphic file (type png)
 <use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 84.
+Package pdftex.def Info: images/Step 5 & 7.png  used on input line 48.
 (pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4
+[2
 
-] [5]
+ <./images/Step 5 & 7.png>] [3]
 File: images/Step 5 & 7.png Graphic file (type png)
 <use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 93.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
-File: images/Step 5 & 7.png Graphic file (type png)
-<use images/Step 5 & 7.png>
-Package pdftex.def Info: images/Step 5 & 7.png  used on input line 98.
-(pdftex.def)             Requested size: 142.26378pt x 87.96652pt.
- [6
+Package pdftex.def Info: images/Step 5 & 7.png  used on input line 58.
+(pdftex.def)             Requested size: 345.0pt x 213.33347pt.
+ [4
 
 ] (main.aux)
  ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-09>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1305 strings out of 475247
- 22076 string characters out of 5757792
- 1921785 words of memory out of 5000000
- 22866 multiletter control sequences out of 15000+600000
+ 1305 strings out of 474586
+ 21101 string characters out of 5762069
+ 1926558 words of memory out of 5000000
+ 23527 multiletter control sequences out of 15000+600000
  561709 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,7n,65p,241b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Jonas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (6 pages, 74645 bytes).
+ 57i,7n,65p,288b,222s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on main.pdf (4 pages, 74986 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
